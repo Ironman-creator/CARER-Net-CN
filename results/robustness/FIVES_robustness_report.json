@@ -1,0 +1,19 @@
+{
+  "scope": "exploratory deterministic robustness on the frozen seed-42 checkpoint",
+  "models": [
+    "gray_rgb_control_30_unet",
+    "color_detail_only_unet",
+    "carer_unet"
+  ],
+  "corruptions": [
+    "clean",
+    "dark_0.65",
+    "bright_1.35",
+    "contrast_0.65",
+    "gamma_1.50",
+    "gaussian_blur_1.5"
+  ],
+  "threshold": 0.5,
+  "fov": "derived from clean image and held fixed across corruptions",
+  "statistical_unit": "paired FIVES official-test image"
+}

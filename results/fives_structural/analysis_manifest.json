@@ -1,0 +1,61 @@
+{
+  "analysis": "CARER JIIM stage 1 audited revision",
+  "script": "analyze_fives_existing_predictions_v2.py",
+  "script_sha256": "288430451A7317A7F9BBC40F790A4BEE36ADB7ED095E346FF0C87C11D61C979B",
+  "statistical_design": {
+    "crossed_clusters": [
+      "training_seed",
+      "test_image"
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20260927,
+    "primary_family": [
+      "overall Dice: CARER vs compute-matched control",
+      "overall clDice: CARER vs compute-matched control"
+    ],
+    "primary_interval": "two-sided 97.5% percentile two-way bootstrap (Bonferroni family of 2)",
+    "exploratory_interval": "two-sided pointwise 95% percentile two-way bootstrap",
+    "p_values": "not reported; avoids mixing rank estimand with mean-difference CI",
+    "patient_clustering": "unavailable because local metadata has no patient_id"
+  },
+  "seeds": [
+    42,
+    123,
+    3407
+  ],
+  "models": [
+    "res_attention_unet_gn",
+    "gray_rgb_control_30_unet",
+    "color_detail_only_unet",
+    "carer_unet"
+  ],
+  "image_size": 512,
+  "fov": {
+    "source": "resized RGB converted to PIL grayscale",
+    "threshold": 0.0196078431372549
+  },
+  "structure": {
+    "execution": "deterministic ordered ThreadPoolExecutor with 6 workers",
+    "skeleton": "Zhang-Suen two-subiteration one-pixel thinning",
+    "calibre": "GT skeleton local radius from Euclidean distance transform; thin<=1.5, medium(1.5,3], thick>3 px",
+    "junction": "8-neighbour degree>=3; connected junction pixels collapsed to one node; greedy one-to-one Euclidean match <= 2.0px",
+    "boundary": "Euclidean distance tolerance <= 2.0px",
+    "components": "8-connected components with >= 10 pixels"
+  },
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "input_hashes": {
+    "metadata_csv": "F4C5E730B1AEAA173A598F0120E88204CCE66144E65B78D710C46F6D550C2A34",
+    "per_image_metrics_aggregate": "964C6F4CBB802F1EA4B7A35185C1C81B7860CFB607631FE3B22C97E92ED426BE",
+    "binary_predictions_aggregate": "F4D199A9A1F0B2A8D05447E43D1638CC8DBB52BB5B9A21A801D9F30049FECB22",
+    "ground_truth_aggregate": "A6AD03CA595848D73FF58065C8A0DA5349E244D8E7B9A86EFC9B0255BD3A3257"
+  },
+  "quality_warning": "Quality attributes overlap and are disease-confounded; subgroup and adjusted interactions are exploratory.",
+  "uncertainty_calibration": "not available in stage 1 because probability maps were not transferred; stage 2 exports them"
+}

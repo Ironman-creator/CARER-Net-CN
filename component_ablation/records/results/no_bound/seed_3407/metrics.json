@@ -1,0 +1,81 @@
+{
+  "arm": "no_bound",
+  "seed": 3407,
+  "test_samples": 200,
+  "threshold": 0.5,
+  "fov": "original grayscale > 5/255",
+  "image_size": 512,
+  "protocol_hash": "43934d5ea982609dfdafc7158a03c4d5498447a9076724dd450f5f444770598a",
+  "config_sha256": "117210aee0754e38e78097f28a61a732be14e6667e92a326bc506dfd7f8010b8",
+  "initial_checkpoint_sha256": "4d50de4405c51d34736e7b3475e5c12067848526f4543cba9fe4b201bcf67f08",
+  "split_sha256": "3df57cb50df4b4b9f7bfc0cf65fdd4ae5f17bb082681c3fb3625187b55f2e1c9",
+  "best_checkpoint_sha256": "2a8994a28b1bee0c59b52184f9101657e5044c7c57a4cad8d88bbca2c4404298",
+  "training_seal_sha256": "cd0f11d23095dab6e0f0c7f0ece445ff744f32fc7efbad64603f9a3555b26f83",
+  "test_data_sha256": "3fb1364bb547a151fe9444895d3d75adf90697a6bca9fef8f9637b22a0ae0c07",
+  "test_data_manifest_sha256": "8943d46beb9cf5a10bfd7d84dc0bf653fc737ce0ec3607dcd5d7790f5cedef20",
+  "per_image_csv_sha256": "8d70af4e0b42ecd6340910d4375f9f334eaf72b998cb4bf613a59cd42e4074c9",
+  "historical_test_exposure": true,
+  "test_based_selection": false,
+  "metrics": {
+    "accuracy": {
+      "mean": 0.98400155672147,
+      "std": 0.00694128984159468
+    },
+    "sensitivity": {
+      "mean": 0.8840643405436899,
+      "std": 0.10778032612436986
+    },
+    "specificity": {
+      "mean": 0.9926386848867621,
+      "std": 0.0036070310517640047
+    },
+    "dice": {
+      "mean": 0.8964608151399566,
+      "std": 0.09214899803691078
+    },
+    "iou": {
+      "mean": 0.8215318970136575,
+      "std": 0.11297903354043981
+    },
+    "auc_roc": {
+      "mean": 0.9919250667088017,
+      "std": 0.01558320580669291
+    },
+    "auc_pr": {
+      "mean": 0.9531340171189495,
+      "std": 0.08675050338049586
+    },
+    "tp": {
+      "mean": 16810.295,
+      "std": 5308.183072921775
+    },
+    "tn": {
+      "mean": 179350.905,
+      "std": 5381.369898632181
+    },
+    "fp": {
+      "mean": 1327.595,
+      "std": 647.14701363856
+    },
+    "fn": {
+      "mean": 1861.62,
+      "std": 1043.0368473475053
+    },
+    "cldice": {
+      "mean": 0.904404070801025,
+      "std": 0.09187350785020613
+    },
+    "thin_centerline_recall": {
+      "mean": 0.7892744739598717,
+      "std": 0.13603429879513587
+    },
+    "thin_centerline_pixels": {
+      "mean": 2902.115,
+      "std": 1160.407904271805
+    },
+    "thin_centerline_empty": {
+      "mean": 0.0,
+      "std": 0.0
+    }
+  }
+}

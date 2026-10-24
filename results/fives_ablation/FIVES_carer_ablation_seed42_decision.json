@@ -1,0 +1,22 @@
+{
+  "protocol": "FIVES validation only; historical seed-42 split; identical GN checkpoint; all arms receive 30 data passes; fixed threshold 0.5",
+  "initial_checkpoint_sha256": "b47245f4b3e1f0557aeb8b5f38db0e297e8268a31b6c076dab4f30e8aaca566c",
+  "ranking_by_soft_dice": [
+    "carer_unet",
+    "color_detail_only_unet",
+    "gray_rgb_control_30_unet",
+    "signed_refiner_only_unet"
+  ],
+  "best_model": "carer_unet",
+  "best_soft_dice": 0.9106874316930771,
+  "best_soft_dice_delta_vs_control30": 0.014659992853800485,
+  "full_minus_color_soft_dice": 0.00010590006907784666,
+  "full_minus_refiner_soft_dice": 0.015024064977963714,
+  "full_minus_color_hard_dice": 0.0007174258430798774,
+  "full_minus_refiner_hard_dice": 0.015108712017536163,
+  "verdict": "PASS",
+  "reason": "At least one module configuration clears the development-screen gain and specificity gates against the 30-epoch compute-matched control.",
+  "interpretation_guardrail": "Use the module-only arms for attribution. Do not attribute the full CARER gain solely to the signed refiner. This is a single-seed development screen, not final test evidence.",
+  "validation_images": 60,
+  "official_test_accessed": false
+}

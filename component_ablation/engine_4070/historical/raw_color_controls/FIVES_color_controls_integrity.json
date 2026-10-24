@@ -1,0 +1,30 @@
+{
+  "protocol": "Five predefined controls; FIVES historical train/validation split per seed; same seed-specific pretrained GN checkpoint; 30 data passes; model selection by validation soft Dice; official test evaluated for every arm at fixed threshold 0.5",
+  "new_models": [
+    "green_channel_unet",
+    "gray_clahe_unet",
+    "rgb_1x1_projection_unet",
+    "carer_rgb_only_unet",
+    "carer_contrast_only_unet"
+  ],
+  "reference_models": [
+    "gray_rgb_control_30_unet",
+    "color_detail_only_unet"
+  ],
+  "seeds": [
+    42,
+    123,
+    3407
+  ],
+  "initial_checkpoint_sha256_by_seed": {
+    "42": "b47245f4b3e1f0557aeb8b5f38db0e297e8268a31b6c076dab4f30e8aaca566c",
+    "123": "45e44c7c842db1ce6f3ff49488e01cad97b7c01fc52be7d143d4639226c9ace7",
+    "3407": "4d50de4405c51d34736e7b3475e5c12067848526f4543cba9fe4b201bcf67f08"
+  },
+  "train_validation_splits_identical_within_seed": true,
+  "test_threshold": 0.5,
+  "test_model_selection_performed": false,
+  "test_samples": 200,
+  "bootstrap_unit": "test image after averaging three seeds",
+  "bootstrap_multiplicity_adjusted": false
+}

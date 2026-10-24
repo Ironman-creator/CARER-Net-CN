@@ -1,0 +1,2 @@
+# Preserve exact published CSV, protocol and frozen-source bytes across clones.
+* -text

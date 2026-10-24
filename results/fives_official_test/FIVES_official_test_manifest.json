@@ -1,0 +1,152 @@
+{
+  "protocol": "Frozen validation-selected checkpoints; official FIVES test only; fixed threshold 0.5; derived FOV; no checkpoint, model, or threshold selection on test data",
+  "created_at_utc": "2026-09-24T04:41:19.001654+00:00",
+  "host": "DESKTOP-UM5FFK1",
+  "python": "3.12.10",
+  "pytorch": "2.11.0+cu128",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "data_root": "<project_root>\\data",
+  "official_train_pairs": 600,
+  "official_test_pairs": 200,
+  "threshold": 0.5,
+  "threshold_source": "fixed_predeclared",
+  "fov": "derived",
+  "seeds": [
+    42,
+    123,
+    3407
+  ],
+  "models": [
+    "res_attention_unet_gn",
+    "gray_rgb_control_30_unet",
+    "color_detail_only_unet",
+    "carer_unet"
+  ],
+  "frozen_validation_decision": "<project_root>\\paper_outputs_fives_carer_multiseed_confirm\\FIVES_carer_multiseed_decision.json",
+  "frozen_validation_verdict": "SELECT_FULL_CARER",
+  "selected_primary_model": "carer_unet",
+  "checkpoints": [
+    {
+      "dataset": "FIVES",
+      "model": "res_attention_unet_gn",
+      "seed": 42,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_fives_v2_screen\\FIVES_best_ResAttentionUNetGN_seed42.pth",
+      "checkpoint_sha256": "B47245F4B3E1F0557AEB8B5F38DB0E297E8268A31B6C076DAB4F30E8AACA566C",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_fives_carer_ablation\\FIVES_best_gray_rgb_control_30_unet_seed42.pth",
+      "checkpoint_sha256": "47E160667A509852DC1BBC2E67AA2008F60A469922F680BDB07810DD0923CBF9",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "color_detail_only_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_fives_carer_ablation\\FIVES_best_color_detail_only_unet_seed42.pth",
+      "checkpoint_sha256": "E6B5E5BACC9D8B5607E7264A2391DE6EBDE5D2A014544F266FE83BD9BF9EBB4F",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "carer_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_fives_carer_paired_screen\\FIVES_best_carer_unet_seed42.pth",
+      "checkpoint_sha256": "8347BE2F7B6CD913465D29AF8FA2871788581212F2467C498DDFC40358B5473A",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "res_attention_unet_gn",
+      "seed": 123,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_fives_v2_screen\\FIVES_best_ResAttentionUNetGN_seed123.pth",
+      "checkpoint_sha256": "45E44C7C842DB1CE6F3FF49488E01CAD97B7C01FC52BE7D143D4639226C9ACE7",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_fives_carer_multiseed_confirm\\FIVES_best_gray_rgb_control_30_unet_seed123.pth",
+      "checkpoint_sha256": "8E3465C7388232E85DFD7EC988F915836F03936AF42D6CD9D94CDF2DB0AB9569",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "color_detail_only_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_fives_carer_multiseed_confirm\\FIVES_best_color_detail_only_unet_seed123.pth",
+      "checkpoint_sha256": "A14B429D55FDF9529704D42EAE8BA4C0A3E8B61CCCAFA81012E53C117D95C438",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "carer_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_fives_carer_multiseed_confirm\\FIVES_best_carer_unet_seed123.pth",
+      "checkpoint_sha256": "290394906552343D967E0148F5CFEA43494E2FD223C225328766942435981DE1",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "res_attention_unet_gn",
+      "seed": 3407,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_fives_v2_screen\\FIVES_best_ResAttentionUNetGN_seed3407.pth",
+      "checkpoint_sha256": "4D50DE4405C51D34736E7B3475E5C12067848526F4543CBA9FE4B201BCF67F08",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_fives_carer_multiseed_confirm\\FIVES_best_gray_rgb_control_30_unet_seed3407.pth",
+      "checkpoint_sha256": "40B95EBFE5ED6ADD7742028BDB7CDFE6C54CE8CF3CB9E6472C285202960BF246",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "color_detail_only_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_fives_carer_multiseed_confirm\\FIVES_best_color_detail_only_unet_seed3407.pth",
+      "checkpoint_sha256": "205CCBA9DF767503C961ACDF6B1218079EDE59EA0A3410BE88118A6614ABFFAF",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "FIVES",
+      "model": "carer_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_fives_carer_multiseed_confirm\\FIVES_best_carer_unet_seed3407.pth",
+      "checkpoint_sha256": "1F51805D60C542968AB1613FD7E383D0180F81F09B445B58E815EA8723CBC1ED",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    }
+  ],
+  "official_test_accessed": true
+}

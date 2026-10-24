@@ -1,0 +1,36 @@
+{
+  "protocol": "FIVES validation only; seeds 42, 123, 3407; per-seed historical split and GN checkpoint; every arm receives 30 data passes; fixed threshold 0.5",
+  "checkpoint_sha256_by_seed": {
+    "42": "b47245f4b3e1f0557aeb8b5f38db0e297e8268a31b6c076dab4f30e8aaca566c",
+    "123": "45e44c7c842db1ce6f3ff49488e01cad97b7c01fc52be7d143d4639226c9ace7",
+    "3407": "4d50de4405c51d34736e7b3475e5c12067848526f4543cba9fe4b201bcf67f08"
+  },
+  "primary_selection_comparison": "carer_unet minus color_detail_only_unet",
+  "hard_dice_delta_by_seed": {
+    "42": 0.0007174258430798774,
+    "123": 0.00048521061738338034,
+    "3407": 0.00041079123814902196
+  },
+  "soft_dice_delta_by_seed": {
+    "42": 0.00010590006907784666,
+    "123": 7.363557815553978e-05,
+    "3407": 2.0022193590873982e-05
+  },
+  "mean_hard_dice_delta": 0.0005378092328707599,
+  "mean_soft_dice_delta": 6.651928027475347e-05,
+  "mean_sensitivity_delta": -0.002007201181755162,
+  "mean_specificity_delta": 0.0003584239158802571,
+  "hard_dice_seed_wins": 3,
+  "selection_gates": {
+    "hard_dice_wins_at_least_two_seeds": true,
+    "mean_hard_dice_delta_positive": true,
+    "mean_soft_dice_delta_not_below_minus_0_0003": true,
+    "mean_specificity_delta_nonnegative": true,
+    "mean_sensitivity_delta_not_below_minus_0_003": true
+  },
+  "verdict": "SELECT_FULL_CARER",
+  "selected_model": "carer_unet",
+  "selected_model_passes_control_gate": true,
+  "next_step": "Freeze the selected architecture and run DRIVE, STARE, and CHASE multi-seed confirmation. Keep the official FIVES test set sealed until the architecture and protocol are frozen.",
+  "official_test_accessed": false
+}

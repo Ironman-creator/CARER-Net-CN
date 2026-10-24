@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    "DRIVE",
+    "STARE",
+    "CHASE"
+  ],
+  "models": [
+    "res_attention_unet_gn",
+    "gray_rgb_control_30_unet",
+    "color_detail_only_unet",
+    "carer_unet"
+  ],
+  "seeds": [
+    42,
+    123,
+    3407
+  ],
+  "statistical_unit": "test image after averaging seeds",
+  "inference_scope": "conditional on the supplied trained seeds; no patient clustering or algorithm-population p values",
+  "intervals": "paired image bootstrap confidence intervals; exploratory unless separately pre-specified",
+  "bootstrap": 10000,
+  "result_root": "<project_root>\\result_jiim_external_validation"
+}

@@ -1,0 +1,18 @@
+{
+  "completed": true,
+  "completed_epochs": 30,
+  "best_epoch": 29,
+  "selection_metric": "soft_dice",
+  "best_validation_loss": 0.06263420479372143,
+  "best_validation_dice": 0.9202280153830846,
+  "best_validation_soft_dice": 0.911753632624944,
+  "best_checkpoint": "checkpoints\\random_init\\seed_123\\best.pth",
+  "best_checkpoint_sha256": "194a79012d250d32e152c92e244b98b746f3bc79b369ddaf1d12b5fc00229c03",
+  "config_sha256": "0989f71a4d80f738d930b540f5b83231aa0bf55947b8eff742e56b122edfd162",
+  "protocol_hash": "43934d5ea982609dfdafc7158a03c4d5498447a9076724dd450f5f444770598a",
+  "split_sha256": "24f84a942618c522b2b06c6bbc7ecc0b6ec4b7cdd6151e4a704f87cbee340cd7",
+  "initial_checkpoint_sha256": "45e44c7c842db1ce6f3ff49488e01cad97b7c01fc52be7d143d4639226c9ace7",
+  "official_test_accessed": false,
+  "historical_test_exposure": true,
+  "synthetic_test_only": false
+}

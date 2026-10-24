@@ -1,0 +1,54 @@
+{
+  "created_cst": "2026-10-22T13:20:27+08:00",
+  "original_package": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\FIVES_CARER_Component_Ablation_4070_20261021",
+  "original_package_manifest_sha256": "f02858fe5761dd12eb64b35ca29551e929c66ecc1b0e14e78598b2605bb1019e",
+  "protocol_sha256": "43934d5ea982609dfdafc7158a03c4d5498447a9076724dd450f5f444770598a",
+  "scientific_recipe_unchanged": true,
+  "modified_source_files": [
+    "component_runner.py"
+  ],
+  "runtime_changes": [
+    "Measured 512px FP32 capacity replaces the 10-GiB nominal preflight cap",
+    "Completed-batch tensor references are deleted after recording diagnostics"
+  ],
+  "original_4070_package_unchanged": true,
+  "checkpoints": [
+    {
+      "seed": 42,
+      "original_path": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\FIVES_best_ResAttentionUNetGN_seed42.pth",
+      "sha256": "b47245f4b3e1f0557aeb8b5f38db0e297e8268a31b6c076dab4f30e8aaca566c"
+    },
+    {
+      "seed": 123,
+      "original_path": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\FIVES_best_ResAttentionUNetGN_seed123.pth",
+      "sha256": "45e44c7c842db1ce6f3ff49488e01cad97b7c01fc52be7d143d4639226c9ace7"
+    },
+    {
+      "seed": 3407,
+      "original_path": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\FIVES_best_ResAttentionUNetGN_seed3407.pth",
+      "sha256": "4d50de4405c51d34736e7b3475e5c12067848526f4543cba9fe4b201bcf67f08"
+    }
+  ],
+  "training_data": {
+    "split": "train",
+    "samples": 600,
+    "method": "same-volume hardlinks; no pixel transforms",
+    "source_root": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\FIVES A Fundus Image Dataset for AI-based Vessel Segmentation",
+    "destination_root": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\FIVES_CARER_Component_Ablation_Local_20261022\\data"
+  },
+  "official_test_prepared_or_opened": false,
+  "local_checks": [
+    {
+      "file": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\research_analysis\\component_ablation_local_20261021\\benchmark_local.json",
+      "sha256": "83874d4c27724368d6d52f95ad12e611132104a71e895972eaed8653ce7649dc"
+    },
+    {
+      "file": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\research_analysis\\component_ablation_local_20261021\\cuda_resume_512_report.json",
+      "sha256": "1dfc0c67abb10dcadd1a086c982054902c063fe7e14a18dc86118e2c02a314a4"
+    },
+    {
+      "file": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\research_analysis\\component_ablation_local_20261021\\workers2_512_report.json",
+      "sha256": "e594ad0681d940d2ff3ae3f08fe81e28ba1c87b92dc5556eef48f9b0549c1bac"
+    }
+  ]
+}

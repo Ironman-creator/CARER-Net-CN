@@ -1,0 +1,5 @@
+{
+  "train": ["image_01l", "image_01r", "image_02l", "image_02r", "image_04l", "image_04r", "image_05l", "image_05r", "image_06l", "image_06r", "image_07l", "image_07r", "image_08r", "image_09l", "image_09r", "image_10l"],
+  "validation": ["image_03l", "image_03r", "image_08l", "image_10r"],
+  "test": "Reserved"
+}

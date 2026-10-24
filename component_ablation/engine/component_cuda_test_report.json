@@ -1,0 +1,27 @@
+{
+  "synthetic_only": true,
+  "real_data_accessed": false,
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "torch": "2.11.0+cu128",
+  "arms": [
+    {
+      "arm": "core",
+      "finite": true,
+      "image_size": 128,
+      "warmup_and_tail_update": true
+    },
+    {
+      "arm": "no_bound",
+      "finite": true,
+      "image_size": 128,
+      "warmup_and_tail_update": true
+    },
+    {
+      "arm": "random_init",
+      "finite": true,
+      "image_size": 128,
+      "warmup_and_tail_update": true
+    }
+  ],
+  "note": "128px operator test is not a 512px 4070 memory benchmark and not an experimental result"
+}

@@ -1,0 +1,4 @@
+﻿quality_field,quality_label,metric,interpretation,n_poor,n_good,poor_disease_counts,adjusted_interaction,ci_level,ci_low,ci_high,evidence,analysis_role,warning
+IC,照明/颜色,dice,adjusted poor-minus-good difference in CARER-control gain,52,148,A:5;D:5;G:25;N:17,0.0002445781426608823,0.95,-0.009444459103341874,0.007615751487524234,inconclusive,exploratory_pointwise,observational subgroup interaction; not a causal quality effect
+Blur,模糊,dice,adjusted poor-minus-good difference in CARER-control gain,41,159,A:6;D:13;G:19;N:3,0.004119052510126783,0.95,-0.008128274602429894,0.013837882926201422,inconclusive,exploratory_pointwise,observational subgroup interaction; not a causal quality effect
+LC,低对比,dice,adjusted poor-minus-good difference in CARER-control gain,15,185,A:0;D:1;G:14;N:0,-0.018731009739962216,0.95,-0.05358892335033553,0.007835733543483929,inconclusive,exploratory_pointwise,LC poor is sparse and disease-confounded; interpret descriptively

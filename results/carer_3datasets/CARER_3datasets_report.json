@@ -1,0 +1,67 @@
+{
+  "protocol": "Frozen FIVES-selected CARER; DRIVE, STARE, and CHASE official test sets; three fixed seeds; historical explicit train/validation splits; threshold 0.5; derived FOV; no dataset-specific architecture or hyperparameter tuning.",
+  "primary_model": "carer_unet",
+  "datasets": [
+    "DRIVE",
+    "STARE",
+    "CHASE"
+  ],
+  "seeds": [
+    42,
+    123,
+    3407
+  ],
+  "full_carer_minus_color_only_dice": {
+    "DRIVE": {
+      "mean_delta": -4.4114819801562476e-05,
+      "bootstrap_ci": [
+        -0.0002718902934757515,
+        0.00019810560024018426
+      ],
+      "favorable_seeds": 1
+    },
+    "STARE": {
+      "mean_delta": -7.577115799684009e-06,
+      "bootstrap_ci": [
+        -0.00014424972776495986,
+        0.0001412790279448702
+      ],
+      "favorable_seeds": 1
+    },
+    "CHASE": {
+      "mean_delta": 0.00036818162648636726,
+      "bootstrap_ci": [
+        0.00011172698792403143,
+        0.0006691757431060895
+      ],
+      "favorable_seeds": 2
+    }
+  },
+  "full_carer_minus_compute_matched_control_dice": {
+    "DRIVE": {
+      "mean_delta": 4.087086586042806e-05,
+      "bootstrap_ci": [
+        -0.00019736584973878126,
+        0.0002742286785173524
+      ],
+      "favorable_seeds": 1
+    },
+    "STARE": {
+      "mean_delta": 0.0001930999810844473,
+      "bootstrap_ci": [
+        -3.79932514972377e-05,
+        0.0004400712608456212
+      ],
+      "favorable_seeds": 1
+    },
+    "CHASE": {
+      "mean_delta": 0.0015710295879627727,
+      "bootstrap_ci": [
+        0.001172326829925241,
+        0.002035327196611138
+      ],
+      "favorable_seeds": 3
+    }
+  },
+  "interpretation_rule": "Report all frozen results regardless of direction. Do not tune the architecture, training schedule, checkpoint choice, or threshold using official test outcomes."
+}

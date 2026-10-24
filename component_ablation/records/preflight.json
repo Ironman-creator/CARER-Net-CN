@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "protocol_hash": "43934d5ea982609dfdafc7158a03c4d5498447a9076724dd450f5f444770598a",
+  "package_manifest_sha256": "5dadf43b6733d16823938865db9386758b5a633fe53978f8d69f48278dccc125",
+  "data_sha256": "300cf7429c919c5fdcd88141c6e32af7b15103ec2b0a15c36a74963d881bdc23",
+  "workers": 2,
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.2",
+    "pillow": "12.3.0",
+    "scipy": "1.18.1",
+    "cuda_runtime": "12.8",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "cudnn": 91900,
+    "cudnn_deterministic": true,
+    "cudnn_allow_tf32": true,
+    "matmul_allow_tf32": false
+  },
+  "checkpoints": {
+    "42": {
+      "sha256": "b47245f4b3e1f0557aeb8b5f38db0e297e8268a31b6c076dab4f30e8aaca566c",
+      "split_sha256": "25ca9e35938844425dfb41790a440ce381d4dcb86472606efa0db128e7cd230f"
+    },
+    "123": {
+      "sha256": "45e44c7c842db1ce6f3ff49488e01cad97b7c01fc52be7d143d4639226c9ace7",
+      "split_sha256": "24f84a942618c522b2b06c6bbc7ecc0b6ec4b7cdd6151e4a704f87cbee340cd7"
+    },
+    "3407": {
+      "sha256": "4d50de4405c51d34736e7b3475e5c12067848526f4543cba9fe4b201bcf67f08",
+      "split_sha256": "3df57cb50df4b4b9f7bfc0cf65fdd4ae5f17bb082681c3fb3625187b55f2e1c9"
+    }
+  },
+  "local_capacity": {
+    "profile": "local-GTX1650-512-FP32",
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "total_memory_bytes": 4294705152,
+    "benchmark_sha256": "83874d4c27724368d6d52f95ad12e611132104a71e895972eaed8653ce7649dc",
+    "resume_check_sha256": "1dfc0c67abb10dcadd1a086c982054902c063fe7e14a18dc86118e2c02a314a4",
+    "scientific_recipe_unchanged": true
+  },
+  "official_test_accessed_by_this_phase": false,
+  "historical_test_exposure": true
+}

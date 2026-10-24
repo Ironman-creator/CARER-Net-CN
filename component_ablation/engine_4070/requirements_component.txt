@@ -1,0 +1,7 @@
+# Reuse the existing 4070 virtual environment; no automatic installer is run.
+# PyTorch must already be the CUDA-enabled build used by the original project.
+numpy>=2.0,<3
+Pillow>=9.1
+scipy>=1.9
+matplotlib>=3.6
+tqdm>=4.64

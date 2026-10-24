@@ -1,0 +1,7 @@
+{
+  "initial_max_abs_logit_difference": 12.546515464782715,
+  "initial_mean_abs_input_delta": 0.007590507157146931,
+  "initial_max_abs_input_delta": 0.09930287301540375,
+  "initial_raw_residual_std": 0.09307518601417542,
+  "initial_adjusted_input_outside_0_1_fraction": 4.57763671875e-05
+}

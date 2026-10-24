@@ -1,0 +1,120 @@
+{
+  "synthetic_only": true,
+  "image_size": 512,
+  "batch_size": 1,
+  "precision": "float32",
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "total_memory_bytes": 4294705152,
+  "torch": "2.11.0+cu128",
+  "results": [
+    {
+      "arm": "core",
+      "warmup": true,
+      "iteration": 0,
+      "seconds": 1.0161320000006526,
+      "peak_allocated_bytes": 1992718336,
+      "peak_reserved_bytes": 2411724800,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "core",
+      "warmup": true,
+      "iteration": 1,
+      "seconds": 0.5122463999978208,
+      "peak_allocated_bytes": 1992733696,
+      "peak_reserved_bytes": 2411724800,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "core",
+      "warmup": false,
+      "iteration": 0,
+      "seconds": 0.8766554000030737,
+      "peak_allocated_bytes": 2314041344,
+      "peak_reserved_bytes": 3170893824,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "core",
+      "warmup": false,
+      "iteration": 1,
+      "seconds": 0.5473084000004746,
+      "peak_allocated_bytes": 2314997760,
+      "peak_reserved_bytes": 3172990976,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "no_bound",
+      "warmup": true,
+      "iteration": 0,
+      "seconds": 0.5390855000005104,
+      "peak_allocated_bytes": 1991670784,
+      "peak_reserved_bytes": 2409627648,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "no_bound",
+      "warmup": true,
+      "iteration": 1,
+      "seconds": 0.5170596999996633,
+      "peak_allocated_bytes": 1991685120,
+      "peak_reserved_bytes": 2411724800,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "no_bound",
+      "warmup": false,
+      "iteration": 0,
+      "seconds": 0.5887591999999131,
+      "peak_allocated_bytes": 2312992768,
+      "peak_reserved_bytes": 3170893824,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "no_bound",
+      "warmup": false,
+      "iteration": 1,
+      "seconds": 0.5441394999979821,
+      "peak_allocated_bytes": 2313949184,
+      "peak_reserved_bytes": 3170893824,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "random_init",
+      "warmup": true,
+      "iteration": 0,
+      "seconds": 0.5356122000011965,
+      "peak_allocated_bytes": 1992719360,
+      "peak_reserved_bytes": 2411724800,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "random_init",
+      "warmup": true,
+      "iteration": 1,
+      "seconds": 0.5153886000007333,
+      "peak_allocated_bytes": 1992733696,
+      "peak_reserved_bytes": 2411724800,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "random_init",
+      "warmup": false,
+      "iteration": 0,
+      "seconds": 0.5663784999997006,
+      "peak_allocated_bytes": 2314041344,
+      "peak_reserved_bytes": 3170893824,
+      "finite_loss_and_gradients": true
+    },
+    {
+      "arm": "random_init",
+      "warmup": false,
+      "iteration": 1,
+      "seconds": 0.5398330999996688,
+      "peak_allocated_bytes": 2314997760,
+      "peak_reserved_bytes": 3172990976,
+      "finite_loss_and_gradients": true
+    }
+  ],
+  "passed": true
+}

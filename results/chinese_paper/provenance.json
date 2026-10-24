@@ -1,0 +1,42 @@
+{
+  "source_manuscript": "CARER眼底血管分割论文_挑战杯8000字内定稿_20261024.docx",
+  "source_sha256": "bcca9c4693edb2e2dfb40c3bd793225f82f13669bb9413248990d03cfce69e8c",
+  "note": "Numerical tables transcribed from the Chinese manuscript; unrounded experimental outputs are released separately.",
+  "tables": [
+    {
+      "file": "table_01.csv",
+      "sha256": "eea0d0f24cc5122ea09ad7424723917a080bb08c1086568572b24f43d0156703",
+      "rows": 5
+    },
+    {
+      "file": "table_02.csv",
+      "sha256": "d60ade471694bf7e3389879f68390b59c1c54f033e567c593d8b043d2be9ce6a",
+      "rows": 10
+    },
+    {
+      "file": "table_03.csv",
+      "sha256": "f507d0811a0c17531d7b9789fe6c547a4030c04d10ba0687ce44e30b1e9927d6",
+      "rows": 5
+    },
+    {
+      "file": "table_04.csv",
+      "sha256": "48e9f7f60edcfe6068e3587b3a956e7a7b26b2204b89de9d974069b25e573924",
+      "rows": 9
+    },
+    {
+      "file": "table_05.csv",
+      "sha256": "6642c66760e8b99b2c90971cc6419be8ed458ad27aee1d1c78897b73bb5579ef",
+      "rows": 4
+    },
+    {
+      "file": "table_06.csv",
+      "sha256": "d5ee25e1f9d0a0b9c74dea215582c215f4ac4874a09dbb9c7c7278f16dd794e8",
+      "rows": 10
+    },
+    {
+      "file": "table_07.csv",
+      "sha256": "45fb56a9ce6f1116bf62997e3199990ce5635d16425e5d6f9ecfa6e8799fa758",
+      "rows": 4
+    }
+  ]
+}

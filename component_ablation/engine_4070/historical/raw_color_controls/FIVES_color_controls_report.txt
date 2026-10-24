@@ -1,0 +1,15 @@
+FIVES predefined color-control experiment
+=========================================
+
+Official-test Dice (mean +/- SD across seeds):
+Epoch-matched grayscale control: 0.886644 +/- 0.000934
+Fixed green channel: 0.893502 +/- 0.001628
+PIL grayscale + CLAHE: 0.875744 +/- 0.000779
+Learned 1x1 RGB projection: 0.898092 +/- 0.001596
+CARER RGB-only residual: 0.897916 +/- 0.001672
+CARER local-contrast-only residual: 0.892732 +/- 0.001183
+CARER-Core (RGB + local contrast): 0.898350 +/- 0.001755
+
+This script reports all five predefined arms. It does not choose a model or
+threshold from the official test results. Pairwise intervals are descriptive
+image-level bootstrap intervals after averaging the three seeds.

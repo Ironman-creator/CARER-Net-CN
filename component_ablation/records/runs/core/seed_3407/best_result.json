@@ -1,0 +1,18 @@
+{
+  "completed": true,
+  "completed_epochs": 30,
+  "best_epoch": 26,
+  "selection_metric": "soft_dice",
+  "best_validation_loss": 0.06315867727001508,
+  "best_validation_dice": 0.9185447384913762,
+  "best_validation_soft_dice": 0.909977811574936,
+  "best_checkpoint": "checkpoints\\core\\seed_3407\\best.pth",
+  "best_checkpoint_sha256": "2a7d9aaa2c6900e2f38ce960b4977b48d439c08bb1497b80208ec5ebf41c3c0e",
+  "config_sha256": "fc24e42d5bd4351d444dbd07284f8d34f3baf7a805136746b29222ef64f65280",
+  "protocol_hash": "43934d5ea982609dfdafc7158a03c4d5498447a9076724dd450f5f444770598a",
+  "split_sha256": "3df57cb50df4b4b9f7bfc0cf65fdd4ae5f17bb082681c3fb3625187b55f2e1c9",
+  "initial_checkpoint_sha256": "4d50de4405c51d34736e7b3475e5c12067848526f4543cba9fe4b201bcf67f08",
+  "official_test_accessed": false,
+  "historical_test_exposure": true,
+  "synthetic_test_only": false
+}

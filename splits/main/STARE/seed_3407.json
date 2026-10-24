@@ -1,0 +1,5 @@
+{
+  "train": ["im0001", "im0002", "im0003", "im0004", "im0005", "im0007", "im0008", "im0009"],
+  "validation": ["im0006", "im0010"],
+  "test": "Reserved"
+}

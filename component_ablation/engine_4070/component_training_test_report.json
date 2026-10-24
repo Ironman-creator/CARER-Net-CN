@@ -1,0 +1,10 @@
+{
+  "synthetic_only": true,
+  "real_data_accessed": false,
+  "tests": [
+    "real 32px Core: interrupted/resumed optimizer and weights equal uninterrupted training; frozen tensors unchanged; config change rejected",
+    "same split-local filenames with distinct images are accepted; matching canonical image content is rejected",
+    "real 32px no_bound/random_init: finite two-epoch training; shared data-stream hashes; frozen tensors unchanged",
+    "official-test discovery is blocked before a valid all-nine seal"
+  ]
+}

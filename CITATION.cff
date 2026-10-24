@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "使用本软件时，请引用本仓库及配套中文论文。"
+title: "CARER-Net 中文复现代码：面向眼底血管精细分割的有界残差颜色适配方法"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Zijian
+    orcid: "https://orcid.org/0009-0005-8411-7218"
+  - family-names: Hong
+    given-names: Zichang
+  - family-names: Zhao
+    given-names: Luobing
+  - family-names: Wang
+    given-names: Yuxin
+  - family-names: Zheng
+    given-names: Kaifan
+  - family-names: Li
+    given-names: Guoping
+contact:
+  - family-names: Chen
+    given-names: Zijian
+    email: mrchan717829@foxmail.com
+license: MIT
+version: 1.0.0
+date-released: 2026-10-24
+repository-code: "https://github.com/Ironman-creator/CARER-Net-CN"
+url: "https://github.com/Ironman-creator/CARER-Net-CN"

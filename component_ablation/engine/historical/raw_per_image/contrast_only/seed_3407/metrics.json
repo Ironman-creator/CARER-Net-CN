@@ -1,0 +1,49 @@
+{
+  "dataset": "FIVES",
+  "model": "carer_contrast_only_unet",
+  "seed": 3407,
+  "checkpoint": "C:\\Users\\1\\Desktop\\RetinalSegmentation_4060_Deploy\\weight_files_fives_color_controls\\FIVES_best_carer_contrast_only_unet_seed3407.pth",
+  "checkpoint_sha256": "87A591D93FBD3362E8A53CC2D9DD3AA7793A0D37E9376208D835C2022BCC5543",
+  "test_samples": 200,
+  "image_size": 512,
+  "input_mode": "gray_rgb",
+  "threshold": 0.5,
+  "threshold_source": "fixed",
+  "threshold_selection": null,
+  "fov": "derived",
+  "parameter_count": 32779342,
+  "metrics": {
+    "accuracy": {
+      "mean": 0.9829604826089607,
+      "std": 0.0068602742808198
+    },
+    "sensitivity": {
+      "mean": 0.8801926076730902,
+      "std": 0.10076527829937013
+    },
+    "specificity": {
+      "mean": 0.9919505991838331,
+      "std": 0.0037109736881431187
+    },
+    "dice": {
+      "mean": 0.8913983660435776,
+      "std": 0.0857069580646662
+    },
+    "iou": {
+      "mean": 0.8122800785089203,
+      "std": 0.10870063984211371
+    },
+    "auc_roc": {
+      "mean": 0.9916415619774264,
+      "std": 0.013230604692549221
+    },
+    "auc_pr": {
+      "mean": 0.9505060368235937,
+      "std": 0.0815019256599059
+    },
+    "inference_seconds": {
+      "mean": 0.037548206998035315,
+      "std": 0.01653252240845549
+    }
+  }
+}

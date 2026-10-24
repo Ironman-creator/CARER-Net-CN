@@ -1,0 +1,386 @@
+{
+  "created_at_utc": "2026-09-24T10:02:05.707580+00:00",
+  "host": "DESKTOP-UM5FFK1",
+  "python": "3.12.10",
+  "pytorch": "2.11.0+cu128",
+  "datasets": [
+    "DRIVE",
+    "STARE",
+    "CHASE"
+  ],
+  "seeds": [
+    42,
+    123,
+    3407
+  ],
+  "models": [
+    "res_attention_unet_gn",
+    "gray_rgb_control_30_unet",
+    "color_detail_only_unet",
+    "carer_unet"
+  ],
+  "checkpoints": [
+    {
+      "dataset": "DRIVE",
+      "model": "res_attention_unet_gn",
+      "seed": 42,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_gn\\DRIVE_best_ResAttentionUNetGN_seed42.pth",
+      "checkpoint_sha256": "F8B944EB7E509FF3825BF8C0302E933A708D10D85870EF6BC5A95152EFA12C62",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\DRIVE_best_gray_rgb_control_30_unet_seed42.pth",
+      "checkpoint_sha256": "4856824AD02D972AF03A07D484A6B9C38894840AA50AB5867F6DDFC543497E0F",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "color_detail_only_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\DRIVE_best_color_detail_only_unet_seed42.pth",
+      "checkpoint_sha256": "D5FF730CEB78CE7E81F7D35E869C092ECE8BFE783A06D7E6B096F91F0BC25133",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "carer_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\DRIVE_best_carer_unet_seed42.pth",
+      "checkpoint_sha256": "8C8C0ABEDFC0888347F35BFF249983DACE90B97E256F78CE5ED9712F8937BBDA",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "res_attention_unet_gn",
+      "seed": 123,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_gn\\DRIVE_best_ResAttentionUNetGN_seed123.pth",
+      "checkpoint_sha256": "F0F6EEC1109D57E06C81326840452B75FE786B11BB35982FAD8F1891ECA076D7",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\DRIVE_best_gray_rgb_control_30_unet_seed123.pth",
+      "checkpoint_sha256": "7937E282C199133484B77EB57FF4725BF7F193B35A13026CBB123B193F7D5859",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "color_detail_only_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\DRIVE_best_color_detail_only_unet_seed123.pth",
+      "checkpoint_sha256": "C84DC12AD698EA05D6E53BDEB28E64DD3FB3692524F2E1DB3EE195C6C644A992",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "carer_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\DRIVE_best_carer_unet_seed123.pth",
+      "checkpoint_sha256": "7B90732DB6CD5A7DD1DAC1BDEEA329E673CB55DCA25D75D3886320C118533636",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "res_attention_unet_gn",
+      "seed": 3407,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_gn\\DRIVE_best_ResAttentionUNetGN_seed3407.pth",
+      "checkpoint_sha256": "05DB3D1B2847C364628CA562FC2EADBC0117AEA54A20317761F65CAEB111C8A6",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\DRIVE_best_gray_rgb_control_30_unet_seed3407.pth",
+      "checkpoint_sha256": "4518B65140B7EFF0456FC6207C28669CFD998BDB13581E477E6F4B263479C3F4",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "color_detail_only_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\DRIVE_best_color_detail_only_unet_seed3407.pth",
+      "checkpoint_sha256": "B8146C4B8A18711BF3FFDADBCBF4540741DD11491CA16B70AB482DD319E933BD",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "DRIVE",
+      "model": "carer_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\DRIVE_best_carer_unet_seed3407.pth",
+      "checkpoint_sha256": "FFBFC47C5C06BA2897CE1FA94FB8A0A83D8C690C2045A3B52DECFEE2A1397E51",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "res_attention_unet_gn",
+      "seed": 42,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_gn\\STARE_best_ResAttentionUNetGN_seed42.pth",
+      "checkpoint_sha256": "A0BCDB2941B454C74E65FDFDF9D5FE3C6189C9C626C6E5D6A79F3C8B4F580170",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\STARE_best_gray_rgb_control_30_unet_seed42.pth",
+      "checkpoint_sha256": "C2D7F67805BB1A159812089456E339FF055D5045E7D078040931C2D6D2091B21",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "color_detail_only_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\STARE_best_color_detail_only_unet_seed42.pth",
+      "checkpoint_sha256": "35E88664DBC3893168A255054305DDFBAC470C752F175D0AD5CCDA470EB1CFCF",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "carer_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\STARE_best_carer_unet_seed42.pth",
+      "checkpoint_sha256": "6BB2A281AF07DC1480A47EFFB220A3985837736836974A941BD41B181F1D9DEA",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "res_attention_unet_gn",
+      "seed": 123,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_gn\\STARE_best_ResAttentionUNetGN_seed123.pth",
+      "checkpoint_sha256": "4600688B70652BFAE9C8463B0E88A72CF13C0E6FE8B53307CA061858365B8F80",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\STARE_best_gray_rgb_control_30_unet_seed123.pth",
+      "checkpoint_sha256": "90D15F253B1758A3269F84CFEE98694E30ABD8CAF3C29248DEFB22BD221E5D9D",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "color_detail_only_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\STARE_best_color_detail_only_unet_seed123.pth",
+      "checkpoint_sha256": "56F7B48E90457CEA74D3BA8CEF2B3504FF44395CFB488BC213C4AA08166F3B3E",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "carer_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\STARE_best_carer_unet_seed123.pth",
+      "checkpoint_sha256": "5722353F1699973B714EB4A08B5A1DC7E95218F7D2DD7DFAB116C5679F92B43E",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "res_attention_unet_gn",
+      "seed": 3407,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_gn\\STARE_best_ResAttentionUNetGN_seed3407.pth",
+      "checkpoint_sha256": "936C6E94C24C4BE9CE4599C47457995BC653DDF63D9564BA74B4DC920BFD7101",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\STARE_best_gray_rgb_control_30_unet_seed3407.pth",
+      "checkpoint_sha256": "9DA38BFA4D4D833806D22D8A49DDADB34F2E8C1893C7F3ED391C3A2A057F28B0",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "color_detail_only_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\STARE_best_color_detail_only_unet_seed3407.pth",
+      "checkpoint_sha256": "D7AE0246A938E2EE2F902C1E7BA6E33F944FB2B544180910D99531A90D951C59",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "STARE",
+      "model": "carer_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\STARE_best_carer_unet_seed3407.pth",
+      "checkpoint_sha256": "9D91CD9B37C01C18B0CB565F5EF2A5FA03852436C73B6070D9AB566E3BE5F00D",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "res_attention_unet_gn",
+      "seed": 42,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_gn\\CHASE_best_ResAttentionUNetGN_seed42.pth",
+      "checkpoint_sha256": "16D77387D3258D0BF9EEA0599B60EA9D71F7F3D87F59F9353F0D03FC0F0B1C85",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\CHASE_best_gray_rgb_control_30_unet_seed42.pth",
+      "checkpoint_sha256": "3DCEFA049482839B61227DFFCDC9308B34D9249388EABD5347DFE8848B5CF94D",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "color_detail_only_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\CHASE_best_color_detail_only_unet_seed42.pth",
+      "checkpoint_sha256": "D3282AB9A8286F00856465BBDD3F15887AA4BD085F6A4C6CA47BFF987FE34BB1",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "carer_unet",
+      "seed": 42,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\CHASE_best_carer_unet_seed42.pth",
+      "checkpoint_sha256": "42865C40B7A456AD8B6BA12584B9B82BB003646B7EA7A28CC4BE404AEC9A1033",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "res_attention_unet_gn",
+      "seed": 123,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_gn\\CHASE_best_ResAttentionUNetGN_seed123.pth",
+      "checkpoint_sha256": "65A3406CA79B98A6C533EDB80428A5BC8180A95DD7D5B12F4542CA01EF982D6E",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\CHASE_best_gray_rgb_control_30_unet_seed123.pth",
+      "checkpoint_sha256": "ED7ACB6C0EE20FA363824572055E4CD19D17DF58F24AA54F161AC399D75FA506",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "color_detail_only_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\CHASE_best_color_detail_only_unet_seed123.pth",
+      "checkpoint_sha256": "F8288083062546B8E43BB56403363AC098336AA61316DA7C641BA3A107CE8457",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "carer_unet",
+      "seed": 123,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\CHASE_best_carer_unet_seed123.pth",
+      "checkpoint_sha256": "E259D94F09631769DC8BAF83F0E4BBC0C16698689A28628CB3853455ACBFC95E",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "res_attention_unet_gn",
+      "seed": 3407,
+      "input_mode": "grayscale",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_gn\\CHASE_best_ResAttentionUNetGN_seed3407.pth",
+      "checkpoint_sha256": "52C2DBE3233CE1E7CB3CE7E2BFE8446FC553DD4A66CF2C059912411027D0CE84",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "gray_rgb_control_30_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\CHASE_best_gray_rgb_control_30_unet_seed3407.pth",
+      "checkpoint_sha256": "CC6DD65DA416FC250A6503DA94F942F84973644CECC2DA09AFE602DCBD89122E",
+      "parameter_count": 32778789,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "color_detail_only_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\CHASE_best_color_detail_only_unet_seed3407.pth",
+      "checkpoint_sha256": "FCC95153BBA60A0D7E78BD083AE2515F949A793853E3E3B04BE09B50C493D071",
+      "parameter_count": 32779990,
+      "strict_state_dict_load": true
+    },
+    {
+      "dataset": "CHASE",
+      "model": "carer_unet",
+      "seed": 3407,
+      "input_mode": "gray_rgb",
+      "checkpoint": "<project_root>\\weight_files_carer_3datasets_confirm\\CHASE_best_carer_unet_seed3407.pth",
+      "checkpoint_sha256": "9BB700FC6FF1C7B540529452AB05D3BFBD8BBA24F079D6A660A90B5952FE2808",
+      "parameter_count": 32796120,
+      "strict_state_dict_load": true
+    }
+  ],
+  "strict_state_dict_load": true,
+  "checkpoint_count": 36
+}

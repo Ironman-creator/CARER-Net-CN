@@ -1,0 +1,438 @@
+{
+  "complete": true,
+  "created_utc": "2026-10-21T10:58:31.118961+00:00",
+  "role": "historical evidence packaging; not new training, test, or independent replication",
+  "workspace_root": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation",
+  "files": [
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\paper_outputs_fives_color_controls\\FIVES_color_controls_integrity.json",
+      "packaged": "raw_color_controls\\FIVES_color_controls_integrity.json",
+      "sha256": "127694788701726fd7948445abd1cc8d2ffcd1c7d437a17585e1973b888e92ce"
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\paper_outputs_fives_color_controls\\FIVES_color_controls_pairwise.csv",
+      "packaged": "raw_color_controls\\FIVES_color_controls_pairwise.csv",
+      "sha256": "92bf49e27070aced0b628226603ecb531d5c1277407cceccfe9b6fa452cc0078"
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\paper_outputs_fives_color_controls\\FIVES_color_controls_report.txt",
+      "packaged": "raw_color_controls\\FIVES_color_controls_report.txt",
+      "sha256": "4ef1ecdfa4ad963f61bf480aa833a271acb0faf24dbebdee8d2bcd2cacb65421"
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\paper_outputs_fives_color_controls\\FIVES_color_controls_test_summary.csv",
+      "packaged": "raw_color_controls\\FIVES_color_controls_test_summary.csv",
+      "sha256": "31b4a0f3ebf4e82cd7d4c0346ff4181ae505f9ee5342f41ce5db4db2a75193b9"
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\paper_outputs_fives_color_controls\\FIVES_color_controls_validation.csv",
+      "packaged": "raw_color_controls\\FIVES_color_controls_validation.csv",
+      "sha256": "8de45faf97e49dc1b347f9ce4e229042ec9f5495ec0744819a718144f73ca30b"
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\gray_rgb_control_30_unet\\seed_42\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\gray\\seed_42\\per_image_metrics.csv",
+      "sha256": "2efd972277f3ebe3bb1d3a9ccf7dea6092ecb89bbed4c1dc937e41e7c60e00df",
+      "arm": "gray",
+      "seed": 42,
+      "per_image_dice_mean": 0.8876862778327628,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\gray_rgb_control_30_unet\\seed_42\\metrics.json",
+      "packaged": "raw_per_image\\gray\\seed_42\\metrics.json",
+      "sha256": "cc3a1809e5550ecfb19bddd78ca22aa802864ab8c2c8227499cd52f210fec97b",
+      "arm": "gray",
+      "seed": 42,
+      "per_image_dice_mean": 0.8876862778327628,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\gray_rgb_control_30_unet\\seed_123\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\gray\\seed_123\\per_image_metrics.csv",
+      "sha256": "80370fb9d17e17e459949554b8d14265f1523a095f37484901a22f476777ea1c",
+      "arm": "gray",
+      "seed": 123,
+      "per_image_dice_mean": 0.8863657438146876,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\gray_rgb_control_30_unet\\seed_123\\metrics.json",
+      "packaged": "raw_per_image\\gray\\seed_123\\metrics.json",
+      "sha256": "74150e9edd210b3c8b0f90b4da7a8648b572061d75da084971b239878c3a6ff3",
+      "arm": "gray",
+      "seed": 123,
+      "per_image_dice_mean": 0.8863657438146876,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\gray_rgb_control_30_unet\\seed_3407\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\gray\\seed_3407\\per_image_metrics.csv",
+      "sha256": "ece2c415fe89be463b05a069626e6f975f715fe717255db936d6e2e25044c0b9",
+      "arm": "gray",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8858813196804043,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\gray_rgb_control_30_unet\\seed_3407\\metrics.json",
+      "packaged": "raw_per_image\\gray\\seed_3407\\metrics.json",
+      "sha256": "ca787714b1a1b7e69ecd5de814eb0ae108255aea6c7d16083f218d6664804e83",
+      "arm": "gray",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8858813196804043,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\green_channel_unet\\seed_42\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\green\\seed_42\\per_image_metrics.csv",
+      "sha256": "afcdda853da943a7b4f2caf61ed45d152d20293b9e894e9a5181ef2f97d26dc4",
+      "arm": "green",
+      "seed": 42,
+      "per_image_dice_mean": 0.8951669067075219,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\green_channel_unet\\seed_42\\metrics.json",
+      "packaged": "raw_per_image\\green\\seed_42\\metrics.json",
+      "sha256": "e8f65c86fcda5af85353f2211c41e6928ec35ed21fa3d62cb699eb1d84fd82ad",
+      "arm": "green",
+      "seed": 42,
+      "per_image_dice_mean": 0.8951669067075219,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\green_channel_unet\\seed_123\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\green\\seed_123\\per_image_metrics.csv",
+      "sha256": "c497995e150aa336be43c4e9441e7bf0ff9de6d9f7cf93974b49e61ecf40eeb6",
+      "arm": "green",
+      "seed": 123,
+      "per_image_dice_mean": 0.8934254417570173,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\green_channel_unet\\seed_123\\metrics.json",
+      "packaged": "raw_per_image\\green\\seed_123\\metrics.json",
+      "sha256": "d946baf8d2b08f2da1d6e4e59a64b55441df2271ef7650403b0c566367d769ce",
+      "arm": "green",
+      "seed": 123,
+      "per_image_dice_mean": 0.8934254417570173,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\green_channel_unet\\seed_3407\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\green\\seed_3407\\per_image_metrics.csv",
+      "sha256": "7d45485bd8e04fbbf54e0e9050c26ac8c08ce900ab3bba37407ae4c089d83aea",
+      "arm": "green",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8919137254827938,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\green_channel_unet\\seed_3407\\metrics.json",
+      "packaged": "raw_per_image\\green\\seed_3407\\metrics.json",
+      "sha256": "3f81c141c0010e27d710526f40153a553550033bc1bce7c1878abd0f56209e84",
+      "arm": "green",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8919137254827938,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\gray_clahe_unet\\seed_42\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\clahe\\seed_42\\per_image_metrics.csv",
+      "sha256": "182bf879e8b8f321b9ad4f130846d125f86b00a5f143a7ed4935a962063b629d",
+      "arm": "clahe",
+      "seed": 42,
+      "per_image_dice_mean": 0.8765143053802993,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\gray_clahe_unet\\seed_42\\metrics.json",
+      "packaged": "raw_per_image\\clahe\\seed_42\\metrics.json",
+      "sha256": "d1ec768d9f7bb7f7331ca1173e290f8cd56457572c187b108095a4bcc919ba07",
+      "arm": "clahe",
+      "seed": 42,
+      "per_image_dice_mean": 0.8765143053802993,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\gray_clahe_unet\\seed_123\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\clahe\\seed_123\\per_image_metrics.csv",
+      "sha256": "b88dc8237f1116af168b10049a483a3c66dc6b4f4dfe7add9f3de091af2ffc2a",
+      "arm": "clahe",
+      "seed": 123,
+      "per_image_dice_mean": 0.8757609386197609,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\gray_clahe_unet\\seed_123\\metrics.json",
+      "packaged": "raw_per_image\\clahe\\seed_123\\metrics.json",
+      "sha256": "78a4fe863d01e4d12266462616fdd9e3eddcd77e06bcedf183778e1bee1761f3",
+      "arm": "clahe",
+      "seed": 123,
+      "per_image_dice_mean": 0.8757609386197609,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\gray_clahe_unet\\seed_3407\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\clahe\\seed_3407\\per_image_metrics.csv",
+      "sha256": "5720a0ad6b6c60e2e17c5f7c8ccf63c6f153f14145be922a152f980c5ade5899",
+      "arm": "clahe",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8749565352073188,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\gray_clahe_unet\\seed_3407\\metrics.json",
+      "packaged": "raw_per_image\\clahe\\seed_3407\\metrics.json",
+      "sha256": "c80a789dec5c0c40b85e53a7ed4a7b2f64c973f2ba9fb2b526e6d276d5753274",
+      "arm": "clahe",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8749565352073188,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\rgb_1x1_projection_unet\\seed_42\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\projection\\seed_42\\per_image_metrics.csv",
+      "sha256": "e5d6719e33531fe8c23472af7f36e2a93fe1d07a81c1db696e03af4de4ddcc08",
+      "arm": "projection",
+      "seed": 42,
+      "per_image_dice_mean": 0.8997035375522578,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\rgb_1x1_projection_unet\\seed_42\\metrics.json",
+      "packaged": "raw_per_image\\projection\\seed_42\\metrics.json",
+      "sha256": "670f136e3b5ee9a86adfa53ed2a8729be4f82954f1cc5d330608799ea9f6fdc1",
+      "arm": "projection",
+      "seed": 42,
+      "per_image_dice_mean": 0.8997035375522578,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\rgb_1x1_projection_unet\\seed_123\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\projection\\seed_123\\per_image_metrics.csv",
+      "sha256": "137395e62be5ce381d78eb34b7304665b4a9e635687390c1b656c24f4b55897b",
+      "arm": "projection",
+      "seed": 123,
+      "per_image_dice_mean": 0.8980593413745304,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\rgb_1x1_projection_unet\\seed_123\\metrics.json",
+      "packaged": "raw_per_image\\projection\\seed_123\\metrics.json",
+      "sha256": "c6f4bdeb5d57585d10e006c31a87b8697179d000eb983b6a90b5dd81a9d6600f",
+      "arm": "projection",
+      "seed": 123,
+      "per_image_dice_mean": 0.8980593413745304,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\rgb_1x1_projection_unet\\seed_3407\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\projection\\seed_3407\\per_image_metrics.csv",
+      "sha256": "867bf88ddc2d25ab4e90aeefd060495218f89b0026c4d1c9ec59746e0d6ccd55",
+      "arm": "projection",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8965117185201495,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\rgb_1x1_projection_unet\\seed_3407\\metrics.json",
+      "packaged": "raw_per_image\\projection\\seed_3407\\metrics.json",
+      "sha256": "d8cedb112d42cce3b5bc391523f5e98dabcace6fde00e542a5f1e396d128d0cf",
+      "arm": "projection",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8965117185201495,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_rgb_only_unet\\seed_42\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\rgb_only\\seed_42\\per_image_metrics.csv",
+      "sha256": "9f06d11230be48f162f1ca66b1188f6d640db2ea6e198dd692c1b36b2343cf5f",
+      "arm": "rgb_only",
+      "seed": 42,
+      "per_image_dice_mean": 0.8995271766038848,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_rgb_only_unet\\seed_42\\metrics.json",
+      "packaged": "raw_per_image\\rgb_only\\seed_42\\metrics.json",
+      "sha256": "f055b4db730c35f002dd0966776af5182c9d7ffa9bf5f8120edf7f6fa0967e1b",
+      "arm": "rgb_only",
+      "seed": 42,
+      "per_image_dice_mean": 0.8995271766038848,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_rgb_only_unet\\seed_123\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\rgb_only\\seed_123\\per_image_metrics.csv",
+      "sha256": "e04d890056e729f2b4034fa1fb356be89919e131c613ad5a5b85fc67ae490114",
+      "arm": "rgb_only",
+      "seed": 123,
+      "per_image_dice_mean": 0.8980313255504597,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_rgb_only_unet\\seed_123\\metrics.json",
+      "packaged": "raw_per_image\\rgb_only\\seed_123\\metrics.json",
+      "sha256": "9671037ffa63d9e2c1fd27450c955a0636cc0018d599ed6ef65d947179c20c36",
+      "arm": "rgb_only",
+      "seed": 123,
+      "per_image_dice_mean": 0.8980313255504597,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_rgb_only_unet\\seed_3407\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\rgb_only\\seed_3407\\per_image_metrics.csv",
+      "sha256": "075156a2f12da92869c6a8d4bb2b2a85f77d230f24befe2ffd9b678d0b90de8e",
+      "arm": "rgb_only",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8961896702347191,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_rgb_only_unet\\seed_3407\\metrics.json",
+      "packaged": "raw_per_image\\rgb_only\\seed_3407\\metrics.json",
+      "sha256": "ee62158e9002a12b0262ad376c322b951faed701c2a72259b037abd622b45326",
+      "arm": "rgb_only",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8961896702347191,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_contrast_only_unet\\seed_42\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\contrast_only\\seed_42\\per_image_metrics.csv",
+      "sha256": "01cb9a2b627debfd083178b9cc67cf79393df2d4017c5d70c474c1af23b16f8b",
+      "arm": "contrast_only",
+      "seed": 42,
+      "per_image_dice_mean": 0.8936525381626478,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_contrast_only_unet\\seed_42\\metrics.json",
+      "packaged": "raw_per_image\\contrast_only\\seed_42\\metrics.json",
+      "sha256": "10bb0569f2196cac15a6975989fe7d557fd083003aa9900afb631bee08de38b2",
+      "arm": "contrast_only",
+      "seed": 42,
+      "per_image_dice_mean": 0.8936525381626478,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_contrast_only_unet\\seed_123\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\contrast_only\\seed_123\\per_image_metrics.csv",
+      "sha256": "4c479e9cfd7b2b913838d4d5ad4a18ff2dd51bd92ca2a6dc87a532ea458a78fe",
+      "arm": "contrast_only",
+      "seed": 123,
+      "per_image_dice_mean": 0.8931454138508316,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_contrast_only_unet\\seed_123\\metrics.json",
+      "packaged": "raw_per_image\\contrast_only\\seed_123\\metrics.json",
+      "sha256": "ff414cdd51e44bc8900ab34a5e5c94314084fd55cba7547e67a35ec14eed9ab2",
+      "arm": "contrast_only",
+      "seed": 123,
+      "per_image_dice_mean": 0.8931454138508316,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_contrast_only_unet\\seed_3407\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\contrast_only\\seed_3407\\per_image_metrics.csv",
+      "sha256": "3b67ae610e687603146fa082dbdff471c685b516e97ff6b3a21ac5a4d3fbd8fa",
+      "arm": "contrast_only",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8913983660435776,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_color_controls\\FIVES\\carer_contrast_only_unet\\seed_3407\\metrics.json",
+      "packaged": "raw_per_image\\contrast_only\\seed_3407\\metrics.json",
+      "sha256": "99f76221b538cdcb5826d8c537ff19da8cf17673aab2f147ae7d25b5c27312f6",
+      "arm": "contrast_only",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8913983660435776,
+      "validation_record_available": true
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\color_detail_only_unet\\seed_42\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\core\\seed_42\\per_image_metrics.csv",
+      "sha256": "9cefa6bdde401c7343504d43ce5337d43c77a042dca4d47f12c05e079c78922b",
+      "arm": "core",
+      "seed": 42,
+      "per_image_dice_mean": 0.899674616563904,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\color_detail_only_unet\\seed_42\\metrics.json",
+      "packaged": "raw_per_image\\core\\seed_42\\metrics.json",
+      "sha256": "29380190aefb99323a9fb2b21a5fc2d0dbd1672c65cc87662d9c904bef1a54fe",
+      "arm": "core",
+      "seed": 42,
+      "per_image_dice_mean": 0.899674616563904,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\color_detail_only_unet\\seed_123\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\core\\seed_123\\per_image_metrics.csv",
+      "sha256": "b63b254dea3155d7bb7f00a81dd7d98c99a4fa5d7c8ca75545fb5621e945a9f3",
+      "arm": "core",
+      "seed": 123,
+      "per_image_dice_mean": 0.899015613663297,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\color_detail_only_unet\\seed_123\\metrics.json",
+      "packaged": "raw_per_image\\core\\seed_123\\metrics.json",
+      "sha256": "84b4c3e2ee9842007a75d39e527663e06f0cc514553ca7f042ccc6d82e7bdee1",
+      "arm": "core",
+      "seed": 123,
+      "per_image_dice_mean": 0.899015613663297,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\color_detail_only_unet\\seed_3407\\per_image_metrics.csv",
+      "packaged": "raw_per_image\\core\\seed_3407\\per_image_metrics.csv",
+      "sha256": "ddc4da5149a7bcd4519c5c14f28ebec0e8424a9cdc8c4f48c2391f1c6b0ebb66",
+      "arm": "core",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8963593625962387,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\实验数据\\result_fives_carer_official_test\\FIVES\\color_detail_only_unet\\seed_3407\\metrics.json",
+      "packaged": "raw_per_image\\core\\seed_3407\\metrics.json",
+      "sha256": "7978ae974e6c1514fcb017d697839872a9af72e254502a7963db9650404b9198",
+      "arm": "core",
+      "seed": 3407,
+      "per_image_dice_mean": 0.8963593625962387,
+      "validation_record_available": false
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\research_analysis\\jmbe_projection_strengthening_20261016\\core_minus_projection_paired_statistics.csv",
+      "packaged": "raw_projection_structure\\core_minus_projection_paired_statistics.csv",
+      "sha256": "b3828429eae3a793ebb5f20c77f4396c02c37db6de640a7bb3252e545a6775e7"
+    },
+    {
+      "source": "C:\\Users\\ZijianChen\\Desktop\\Retinal segmentation\\research_analysis\\jmbe_projection_strengthening_20261016\\frozen_protocol.json",
+      "packaged": "raw_projection_structure\\frozen_protocol.json",
+      "sha256": "294302f9f38450dd467b4504cee58673636eeade998c36ca5471ec7123df1496"
+    }
+  ],
+  "optional_missing": [],
+  "region_ci": "image bootstrap after three-seed averaging, pointwise unadjusted 95%",
+  "structural_ci": "crossed seed x image, post-hoc, four endpoints; 95% and Bonferroni 98.75%",
+  "derived_files": [
+    {
+      "path": "历史七方案汇总.csv",
+      "sha256": "9132f4b010e163debb205f7da5bfbabfdaed10c33e137cbc6ab100f9ad4079d3"
+    },
+    {
+      "path": "历史局部对比结果.md",
+      "sha256": "9fd8142f95ae5a434eb0c6cbeee179946bcdef6b9c0988694d1109f869ae4ed0"
+    },
+    {
+      "path": "历史Core对投影结构统计.csv",
+      "sha256": "3033963abdb420a5efb1fbcf020aecbaa363d57edc15a28bf8aef6cec1194ab1"
+    }
+  ]
+}

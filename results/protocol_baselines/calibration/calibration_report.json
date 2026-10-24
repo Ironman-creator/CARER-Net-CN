@@ -1,0 +1,8 @@
+{
+  "ece": "foreground-probability ECE with 15 equal-width bins inside derived FOV",
+  "brier": "mean squared foreground-probability error inside derived FOV",
+  "uncertainty": "mean binary entropy per image",
+  "failure_detection": "AUROC for bottom-quartile image Dice, selected within each frozen run",
+  "aurc": "mean cumulative segmentation risk after sorting images by increasing entropy",
+  "scope": "descriptive calibration/failure-detection analysis; no threshold or model tuning"
+}

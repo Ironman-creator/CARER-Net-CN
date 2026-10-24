@@ -1,0 +1,142 @@
+{
+  "created_at_utc": "2026-09-24T08:23:27.553637+00:00",
+  "host": "DESKTOP-UM5FFK1",
+  "python": "3.12.10",
+  "pytorch": "2.11.0+cu128",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "data_root": "<project_root>\\data",
+  "frozen_decision": "<project_root>\\frozen_protocol_carer_3datasets\\FIVES_carer_multiseed_decision.json",
+  "frozen_verdict": "SELECT_FULL_CARER",
+  "selected_model": "carer_unet",
+  "datasets": [
+    {
+      "dataset": "DRIVE",
+      "train_pairs": 20,
+      "test_pairs": 20
+    },
+    {
+      "dataset": "STARE",
+      "train_pairs": 10,
+      "test_pairs": 10
+    },
+    {
+      "dataset": "CHASE",
+      "train_pairs": 20,
+      "test_pairs": 8
+    }
+  ],
+  "splits": [
+    {
+      "dataset": "DRIVE",
+      "seed": 42,
+      "split_file": "<project_root>\\reference_splits_carer_3datasets\\DRIVE\\seed_42.json",
+      "train_samples": 16,
+      "validation_samples": 4
+    },
+    {
+      "dataset": "DRIVE",
+      "seed": 123,
+      "split_file": "<project_root>\\reference_splits_carer_3datasets\\DRIVE\\seed_123.json",
+      "train_samples": 16,
+      "validation_samples": 4
+    },
+    {
+      "dataset": "DRIVE",
+      "seed": 3407,
+      "split_file": "<project_root>\\reference_splits_carer_3datasets\\DRIVE\\seed_3407.json",
+      "train_samples": 16,
+      "validation_samples": 4
+    },
+    {
+      "dataset": "STARE",
+      "seed": 42,
+      "split_file": "<project_root>\\reference_splits_carer_3datasets\\STARE\\seed_42.json",
+      "train_samples": 8,
+      "validation_samples": 2
+    },
+    {
+      "dataset": "STARE",
+      "seed": 123,
+      "split_file": "<project_root>\\reference_splits_carer_3datasets\\STARE\\seed_123.json",
+      "train_samples": 8,
+      "validation_samples": 2
+    },
+    {
+      "dataset": "STARE",
+      "seed": 3407,
+      "split_file": "<project_root>\\reference_splits_carer_3datasets\\STARE\\seed_3407.json",
+      "train_samples": 8,
+      "validation_samples": 2
+    },
+    {
+      "dataset": "CHASE",
+      "seed": 42,
+      "split_file": "<project_root>\\reference_splits_carer_3datasets\\CHASE\\seed_42.json",
+      "train_samples": 16,
+      "validation_samples": 4
+    },
+    {
+      "dataset": "CHASE",
+      "seed": 123,
+      "split_file": "<project_root>\\reference_splits_carer_3datasets\\CHASE\\seed_123.json",
+      "train_samples": 16,
+      "validation_samples": 4
+    },
+    {
+      "dataset": "CHASE",
+      "seed": 3407,
+      "split_file": "<project_root>\\reference_splits_carer_3datasets\\CHASE\\seed_3407.json",
+      "train_samples": 16,
+      "validation_samples": 4
+    }
+  ],
+  "models": [
+    {
+      "model": "res_attention_unet_gn",
+      "input_mode": "grayscale",
+      "parameter_count": 32778789,
+      "forward_shape": [
+        1,
+        1,
+        64,
+        64
+      ]
+    },
+    {
+      "model": "gray_rgb_control_30_unet",
+      "input_mode": "gray_rgb",
+      "parameter_count": 32778789,
+      "forward_shape": [
+        1,
+        1,
+        64,
+        64
+      ]
+    },
+    {
+      "model": "color_detail_only_unet",
+      "input_mode": "gray_rgb",
+      "parameter_count": 32779990,
+      "forward_shape": [
+        1,
+        1,
+        64,
+        64
+      ]
+    },
+    {
+      "model": "carer_unet",
+      "input_mode": "gray_rgb",
+      "parameter_count": 32796120,
+      "forward_shape": [
+        1,
+        1,
+        64,
+        64
+      ]
+    }
+  ],
+  "protocol": "Frozen CARER architecture and FIVES-selected hyperparameters; explicit historical per-seed splits; three seeds; fixed threshold 0.5; derived FOV.",
+  "preflight_passed": true
+}

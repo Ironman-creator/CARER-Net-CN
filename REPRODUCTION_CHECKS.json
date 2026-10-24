@@ -1,0 +1,45 @@
+{
+  "release": "1.0.0",
+  "checked_on": "2026-10-24",
+  "passed": true,
+  "scope": "Source integrity, fixed splits, synthetic model tests, and recalculation of released numerical records. No new dataset training or test inference was performed for this software release.",
+  "unit_tests_passed": 4,
+  "component_model_tests_passed": 9,
+  "architectures_forward_checked": 9,
+  "parameter_counts": {
+    "res_attention_unet_gn": 32778789,
+    "gray_rgb_control_30_unet": 32778789,
+    "color_detail_only_unet": 32779990,
+    "carer_unet": 32796120,
+    "unet": 31030593,
+    "attention_unet": 31380197,
+    "unet_plus_plus_gn": 9159105,
+    "r2_unet_gn": 8293185,
+    "sa_unet_gn": 7849123
+  },
+  "initial_max_abs_logit_differences": {
+    "gray_rgb_control_30_unet": 0.0,
+    "color_detail_only_unet": 0.0,
+    "carer_unet": 0.0
+  },
+  "torch_for_model_tests": "2.11.0+cu128",
+  "main_tables_checked": {
+    "table2_architectures.csv": 36,
+    "table3_paired_dice.csv": 8,
+    "table4_structure.csv": 8,
+    "table5_external_validation.csv": 12,
+    "table6_efficiency.csv": 9
+  },
+  "component_paired_contrasts_recomputed": 4,
+  "component_bootstrap_replicates": 10000,
+  "component_statistics_match_records": true,
+  "model_weight_bytes_verified_during_csv_recalculation": false,
+  "frozen_integrity": {
+    "copied_files_unchanged": 274,
+    "component_manifest_files": {
+      "engine": 93,
+      "engine_4070": 87
+    },
+    "manuscript_unchanged": true
+  }
+}
