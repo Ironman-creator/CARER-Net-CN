@@ -1,7 +1,7 @@
 {
   "table": "表8",
   "manuscript": "CARER眼底血管分割论文_挑战杯终审修订稿_20261025.docx",
-  "manuscript_sha256": "838ad6d959c172a1e2494b7b017a157802177f132744c73077f988e010370bed",
+  "manuscript_sha256": "a8bfbdae7c21c51e72b5f90520a5ea0758fff0e52828b3a0aad70c1b1819bb0d",
   "table_file": "table_08.csv",
   "table_sha256": "edc78edc2aed00ac2421bedc37152f8dbade419ed78d3fb50c04d215ecfb8580",
   "source": "Existing seven-arm FIVES color-input control records; no new model training or test inference.",

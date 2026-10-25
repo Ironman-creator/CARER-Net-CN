@@ -1575,7 +1575,7 @@
     {
       "path": "results/chinese_paper/input_controls_provenance.json",
       "bytes": 1214,
-      "sha256": "bb6bd8bb1d520859a78b76ffc12683f7d8667316a4ac7b4806f523e90efdb724"
+      "sha256": "5bfcc84fa00112f56ce184d5ee1582b2bb8b45f656a0406f9f27387258bc1588"
     },
     {
       "path": "results/chinese_paper/provenance.json",
