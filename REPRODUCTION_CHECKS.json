@@ -1,45 +1,128 @@
 {
-  "release": "1.0.0",
-  "checked_on": "2026-10-24",
+  "release": "1.0.1",
+  "checked_on": "2026-10-25",
   "passed": true,
-  "scope": "Source integrity, fixed splits, synthetic model tests, and recalculation of released numerical records. No new dataset training or test inference was performed for this software release.",
-  "unit_tests_passed": 4,
-  "component_model_tests_passed": 9,
-  "architectures_forward_checked": 9,
-  "parameter_counts": {
-    "res_attention_unet_gn": 32778789,
-    "gray_rgb_control_30_unet": 32778789,
-    "color_detail_only_unet": 32779990,
-    "carer_unet": 32796120,
-    "unet": 31030593,
-    "attention_unet": 31380197,
-    "unet_plus_plus_gn": 9159105,
-    "r2_unet_gn": 8293185,
-    "sa_unet_gn": 7849123
-  },
-  "initial_max_abs_logit_differences": {
-    "gray_rgb_control_30_unet": 0.0,
-    "color_detail_only_unet": 0.0,
-    "carer_unet": 0.0
-  },
-  "torch_for_model_tests": "2.11.0+cu128",
-  "main_tables_checked": {
-    "table2_architectures.csv": 36,
-    "table3_paired_dice.csv": 8,
-    "table4_structure.csv": 8,
-    "table5_external_validation.csv": 12,
-    "table6_efficiency.csv": 9
-  },
-  "component_paired_contrasts_recomputed": 4,
-  "component_bootstrap_replicates": 10000,
-  "component_statistics_match_records": true,
-  "model_weight_bytes_verified_during_csv_recalculation": false,
-  "frozen_integrity": {
-    "copied_files_unchanged": 274,
-    "component_manifest_files": {
-      "engine": 93,
-      "engine_4070": 87
+  "scope": "Original model, training and statistics implementations retain their execution structure. Six CPU tests cover fixed splits, schedules, released statistics, seven input controls and prepared-input file-list safety. No dataset training or inference was started.",
+  "unit_tests_passed": 6,
+  "tracked_python_files_ast_checked": 87,
+  "runtime_ast_unchanged": true,
+  "historical_numerical_protocol_files_unchanged": 214,
+  "changed_python_sources": [
+    {
+      "path": "component_ablation/engine/frozen_base/models/Attention_UNet_V5.py",
+      "runtime_ast_unchanged": true,
+      "changes": "docstrings only"
     },
-    "manuscript_unchanged": true
-  }
+    {
+      "path": "component_ablation/engine/frozen_base/models/modern_baselines.py",
+      "runtime_ast_unchanged": true,
+      "changes": "docstrings only"
+    },
+    {
+      "path": "component_ablation/engine/prepare_historical_controls.py",
+      "runtime_ast_unchanged": true,
+      "changes": "docstrings and exact documentation strings"
+    },
+    {
+      "path": "component_ablation/engine_4070/frozen_base/models/Attention_UNet_V5.py",
+      "runtime_ast_unchanged": true,
+      "changes": "docstrings only"
+    },
+    {
+      "path": "component_ablation/engine_4070/frozen_base/models/modern_baselines.py",
+      "runtime_ast_unchanged": true,
+      "changes": "docstrings only"
+    },
+    {
+      "path": "component_ablation/engine_4070/prepare_historical_controls.py",
+      "runtime_ast_unchanged": true,
+      "changes": "docstrings and exact documentation strings"
+    },
+    {
+      "path": "models/Attention_UNet_V5.py",
+      "runtime_ast_unchanged": true,
+      "changes": "docstrings only"
+    },
+    {
+      "path": "models/modern_baselines.py",
+      "runtime_ast_unchanged": true,
+      "changes": "docstrings only"
+    }
+  ],
+  "frozen_statistics_sources": [
+    {
+      "path": "analysis/structure_metrics.py",
+      "sha256": "288430451a7317a7f9bbc40f790a4bee36adb7ed095e346ff0c87c11d61c979b",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "component_ablation/engine/frozen_base/structure_metrics.py",
+      "sha256": "288430451a7317a7f9bbc40f790a4bee36adb7ed095e346ff0c87c11d61c979b",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "component_ablation/engine_4070/frozen_base/structure_metrics.py",
+      "sha256": "288430451a7317a7f9bbc40f790a4bee36adb7ed095e346ff0c87c11d61c979b",
+      "bytes_unchanged": true
+    }
+  ],
+  "training_started": false,
+  "model_inference_started": false,
+  "prior_release_verification": {
+    "source_git_commit": "907cd98c68119b2ad44fecba508d3d6fb892f988",
+    "sha256": "01e17fc4f6a99bb8f3f385f3c3487041e8309f929612af61bc2707633faefc07",
+    "record": {
+      "release": "1.0.0",
+      "checked_on": "2026-10-24",
+      "passed": true,
+      "scope": "Source integrity, fixed splits, synthetic model tests, and recalculation of released numerical records. No new dataset training or test inference was performed for this software release.",
+      "unit_tests_passed": 4,
+      "component_model_tests_passed": 9,
+      "architectures_forward_checked": 9,
+      "parameter_counts": {
+        "res_attention_unet_gn": 32778789,
+        "gray_rgb_control_30_unet": 32778789,
+        "color_detail_only_unet": 32779990,
+        "carer_unet": 32796120,
+        "unet": 31030593,
+        "attention_unet": 31380197,
+        "unet_plus_plus_gn": 9159105,
+        "r2_unet_gn": 8293185,
+        "sa_unet_gn": 7849123
+      },
+      "initial_max_abs_logit_differences": {
+        "gray_rgb_control_30_unet": 0.0,
+        "color_detail_only_unet": 0.0,
+        "carer_unet": 0.0
+      },
+      "torch_for_model_tests": "2.11.0+cu128",
+      "main_tables_checked": {
+        "table2_architectures.csv": 36,
+        "table3_paired_dice.csv": 8,
+        "table4_structure.csv": 8,
+        "table5_external_validation.csv": 12,
+        "table6_efficiency.csv": 9
+      },
+      "component_paired_contrasts_recomputed": 4,
+      "component_bootstrap_replicates": 10000,
+      "component_statistics_match_records": true,
+      "model_weight_bytes_verified_during_csv_recalculation": false,
+      "frozen_integrity": {
+        "copied_files_unchanged": 274,
+        "component_manifest_files": {
+          "engine": 93,
+          "engine_4070": 87
+        },
+        "manuscript_unchanged": true
+      }
+    }
+  },
+  "runtime_ast_unchanged_scope": "Original model/training/statistics source; new reproduction utilities and their tests are additions.",
+  "input_control_arms_checked": 7,
+  "prepared_input_files_checked_locally": 176,
+  "prepared_inputs_matched_locally": 176,
+  "new_tools": [
+    "scripts/reproduce_input_controls.py",
+    "scripts/verify_prepared_inputs.py"
+  ]
 }

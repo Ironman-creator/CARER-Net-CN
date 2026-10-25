@@ -1,9 +1,11 @@
 {
-  "version": "1.0.0",
-  "date": "2026-10-24",
+  "version": "1.0.1",
+  "date": "2026-10-25",
   "repository": "https://github.com/Ironman-creator/CARER-Net-CN",
   "english_repository_reference_head": "fca5821619cd0bab673d9bd61775372b768bf7d9",
-  "note": "SHA-256 of released source, documentation, and numerical records. This manifest excludes itself and local ignored outputs.",
+  "note": "Current Chinese release files; original numerical records and fixed statistics sources retained. Documentation and independent reproduction utilities revised.",
+  "previous_release_git_commit": "907cd98c68119b2ad44fecba508d3d6fb892f988",
+  "previous_release_manifest_sha256": "77c6b801bef43beef9c2f6831be522c35ed6788b3fecdafbccebdc2357b23352",
   "files": [
     {
       "path": ".gitattributes",
@@ -18,7 +20,7 @@
     {
       "path": "CITATION.cff",
       "bytes": 824,
-      "sha256": "bd9a9a07b89ae8c7a3ba5990c5c32f65ae761d15f9251c0ec8d039f49216b3ff"
+      "sha256": "4ef820be3d0ac15b1d097453528cce3155f34bba39dda99340dfc40beedbf337"
     },
     {
       "path": "LICENSE",
@@ -27,13 +29,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 5861,
-      "sha256": "788eb1cf13e81cc87f788725c4f0d80f038fefb6633ab1f50da4c80b86f08636"
+      "bytes": 6294,
+      "sha256": "42132910a9484186e43de5e6c6d77bc91dd44bf83b765d836b092ec85d5c41de"
     },
     {
       "path": "REPRODUCTION_CHECKS.json",
-      "bytes": 1509,
-      "sha256": "01e17fc4f6a99bb8f3f385f3c3487041e8309f929612af61bc2707633faefc07"
+      "bytes": 4879,
+      "sha256": "06bc28675e7619e0ddd64f52324e274f1e000dbe4266e5c58a4a86dcef2147cc"
     },
     {
       "path": "analysis/structure_metrics.py",
@@ -52,8 +54,8 @@
     },
     {
       "path": "component_ablation/README.md",
-      "bytes": 5605,
-      "sha256": "818aad1b99a92d6165472f0fb6ae5349901c7901e940d1f6f31694c203740141"
+      "bytes": 5590,
+      "sha256": "5f90987f7f966d529c4d9f5bad1b2e07d366ab683dc1ca181a3010af3cc8d43d"
     },
     {
       "path": "component_ablation/analyze_published.py",
@@ -67,8 +69,8 @@
     },
     {
       "path": "component_ablation/engine/README_4070.md",
-      "bytes": 10929,
-      "sha256": "910b3516e12b7be98b4b5ef34335be0d7a13a5bdbc6098c06373a7e7c936383e"
+      "bytes": 10803,
+      "sha256": "7ea3b1a598cc11a87a7b2e53c1956110793ac98fcb0287114223554c286d0e99"
     },
     {
       "path": "component_ablation/engine/component_cuda_test_report.json",
@@ -137,8 +139,8 @@
     },
     {
       "path": "component_ablation/engine/frozen_base/models/Attention_UNet_V5.py",
-      "bytes": 13855,
-      "sha256": "87daac22daf4ea9b586333fabfe962754e135be8578e10252d8cf6859ff898c6"
+      "bytes": 13857,
+      "sha256": "c7015c501057c6ce72f213c4cc33dd0929f541fc7aedd03aefcefcfed931a8bb"
     },
     {
       "path": "component_ablation/engine/frozen_base/models/UNet.py",
@@ -157,8 +159,8 @@
     },
     {
       "path": "component_ablation/engine/frozen_base/models/modern_baselines.py",
-      "bytes": 8787,
-      "sha256": "53dd29b9bb51fdd879a0cab6ce920bf07135bd73e7b74e2f19330e971d059710"
+      "bytes": 8819,
+      "sha256": "cfe659521f6004f128648ab7cf271372775484be703f495405d777a02cc28b4d"
     },
     {
       "path": "component_ablation/engine/frozen_base/structure_metrics.py",
@@ -177,8 +179,8 @@
     },
     {
       "path": "component_ablation/engine/historical/historical_manifest.json",
-      "bytes": 23787,
-      "sha256": "fb3444568cea6d626db93a69a2e28f3a4f433a701e951268fa359dd318c2dbaf"
+      "bytes": 24191,
+      "sha256": "49048c33a03d7236a6f8f0d3b688e5a0e689145d2b10bb32940438e73a13ce7e"
     },
     {
       "path": "component_ablation/engine/historical/raw_color_controls/FIVES_color_controls_integrity.json",
@@ -437,8 +439,8 @@
     },
     {
       "path": "component_ablation/engine/historical/历史局部对比结果.md",
-      "bytes": 2604,
-      "sha256": "9fd8142f95ae5a434eb0c6cbeee179946bcdef6b9c0988694d1109f869ae4ed0"
+      "bytes": 2499,
+      "sha256": "b6d6c52831182103270978ec7479a3ade878d91b5f24b4f58a5320bcbd8dfc1b"
     },
     {
       "path": "component_ablation/engine/local_512_benchmark.json",
@@ -462,13 +464,13 @@
     },
     {
       "path": "component_ablation/engine/package_manifest.json",
-      "bytes": 17463,
-      "sha256": "5dadf43b6733d16823938865db9386758b5a633fe53978f8d69f48278dccc125"
+      "bytes": 18372,
+      "sha256": "8ebf35049f2210333d7c11da7899aedcee9e2a8d3678039acd706c50fc9fa292"
     },
     {
       "path": "component_ablation/engine/prepare_historical_controls.py",
-      "bytes": 16637,
-      "sha256": "b48f7f924a22f68c53d6b03e26be378c731374316c716cc7d1ea4a27ed46b573"
+      "bytes": 16532,
+      "sha256": "537b218a234faae36acac18271fc2a94b1d3c60e6cfc279b1f616340f153abd6"
     },
     {
       "path": "component_ablation/engine/protocol.json",
@@ -537,8 +539,8 @@
     },
     {
       "path": "component_ablation/engine_4070/README_4070.md",
-      "bytes": 10929,
-      "sha256": "910b3516e12b7be98b4b5ef34335be0d7a13a5bdbc6098c06373a7e7c936383e"
+      "bytes": 10803,
+      "sha256": "7ea3b1a598cc11a87a7b2e53c1956110793ac98fcb0287114223554c286d0e99"
     },
     {
       "path": "component_ablation/engine_4070/component_cuda_test_report.json",
@@ -607,8 +609,8 @@
     },
     {
       "path": "component_ablation/engine_4070/frozen_base/models/Attention_UNet_V5.py",
-      "bytes": 13855,
-      "sha256": "87daac22daf4ea9b586333fabfe962754e135be8578e10252d8cf6859ff898c6"
+      "bytes": 13857,
+      "sha256": "c7015c501057c6ce72f213c4cc33dd0929f541fc7aedd03aefcefcfed931a8bb"
     },
     {
       "path": "component_ablation/engine_4070/frozen_base/models/UNet.py",
@@ -627,8 +629,8 @@
     },
     {
       "path": "component_ablation/engine_4070/frozen_base/models/modern_baselines.py",
-      "bytes": 8787,
-      "sha256": "53dd29b9bb51fdd879a0cab6ce920bf07135bd73e7b74e2f19330e971d059710"
+      "bytes": 8819,
+      "sha256": "cfe659521f6004f128648ab7cf271372775484be703f495405d777a02cc28b4d"
     },
     {
       "path": "component_ablation/engine_4070/frozen_base/structure_metrics.py",
@@ -647,8 +649,8 @@
     },
     {
       "path": "component_ablation/engine_4070/historical/historical_manifest.json",
-      "bytes": 23787,
-      "sha256": "fb3444568cea6d626db93a69a2e28f3a4f433a701e951268fa359dd318c2dbaf"
+      "bytes": 24191,
+      "sha256": "49048c33a03d7236a6f8f0d3b688e5a0e689145d2b10bb32940438e73a13ce7e"
     },
     {
       "path": "component_ablation/engine_4070/historical/raw_color_controls/FIVES_color_controls_integrity.json",
@@ -907,8 +909,8 @@
     },
     {
       "path": "component_ablation/engine_4070/historical/历史局部对比结果.md",
-      "bytes": 2604,
-      "sha256": "9fd8142f95ae5a434eb0c6cbeee179946bcdef6b9c0988694d1109f869ae4ed0"
+      "bytes": 2499,
+      "sha256": "b6d6c52831182103270978ec7479a3ade878d91b5f24b4f58a5320bcbd8dfc1b"
     },
     {
       "path": "component_ablation/engine_4070/make_return_bundle.py",
@@ -917,13 +919,13 @@
     },
     {
       "path": "component_ablation/engine_4070/package_manifest.json",
-      "bytes": 16556,
-      "sha256": "f02858fe5761dd12eb64b35ca29551e929c66ecc1b0e14e78598b2605bb1019e"
+      "bytes": 17465,
+      "sha256": "0e3309aa479ff1da59b063a826acf4045333979b8d89fe160936bc48a79c4564"
     },
     {
       "path": "component_ablation/engine_4070/prepare_historical_controls.py",
-      "bytes": 16637,
-      "sha256": "b48f7f924a22f68c53d6b03e26be378c731374316c716cc7d1ea4a27ed46b573"
+      "bytes": 16532,
+      "sha256": "537b218a234faae36acac18271fc2a94b1d3c60e6cfc279b1f616340f153abd6"
     },
     {
       "path": "component_ablation/engine_4070/protocol.json",
@@ -1401,19 +1403,44 @@
       "sha256": "825e09996e29c2ab28e748a2be2bc1ae58f4939b74019dff137268f43d507ab8"
     },
     {
+      "path": "docs/传统三库输入文件校验.csv",
+      "bytes": 22543,
+      "sha256": "df187e4511a996ccfcaf3ed8a7865bee3361af579e27b67b8d1a9be3759fffee"
+    },
+    {
+      "path": "docs/传统输入来源说明.md",
+      "bytes": 2177,
+      "sha256": "87ed537cbb596a968fcdb4a528bfe0c90b933b29f8bf99f87c8aac8b8966a751"
+    },
+    {
+      "path": "docs/原始来源_1.0.0.json",
+      "bytes": 4791,
+      "sha256": "87bfbb88dee22d961c26892f1954ad5019fb454bf796776f2a6abd95014905b2"
+    },
+    {
       "path": "docs/实验结果索引.md",
-      "bytes": 3301,
-      "sha256": "b818f21305c0a1c06f1fe23277bfd68dbf43c9767aa1b52a0e07c3b944909fd6"
+      "bytes": 3592,
+      "sha256": "a01e5ad125cae383a9c8d55465aab1c3e3d3a6ecbc57c71048332bb7529826b5"
     },
     {
       "path": "docs/数据准备.md",
-      "bytes": 2800,
-      "sha256": "3fa6c224df7f4669dd8566a3911d71a5ca6a6a7b7625dc021c48a29cab515664"
+      "bytes": 3183,
+      "sha256": "c200a8896f8a6ab83d6b2a18ce4343485b3e20c185b091d628292349b5411573"
+    },
+    {
+      "path": "docs/版本说明_1.0.1.md",
+      "bytes": 2471,
+      "sha256": "1b3f12bfa1be73d7b41c89ee1b58251f38d27a1ba454c182c96adb3594253258"
+    },
+    {
+      "path": "docs/结构分析阅读说明.md",
+      "bytes": 2595,
+      "sha256": "a757a745ade3b75d33e10f9135d3404c43dc5886a020c1bd12321b9ef52ced64"
     },
     {
       "path": "docs/训练复现.md",
-      "bytes": 3883,
-      "sha256": "61ca500637343347bb09ea1bd23bfa3c2f7ceae4132b72add8347c849bd6190d"
+      "bytes": 3891,
+      "sha256": "b5d0697d55f9f0717720e1eccafe4fc078a11c45a47d98a293aeacd5653a7828"
     },
     {
       "path": "evaluate_robustness.py",
@@ -1452,8 +1479,8 @@
     },
     {
       "path": "models/Attention_UNet_V5.py",
-      "bytes": 9995,
-      "sha256": "98976546b56bbd3e5a028440fa93013e9ed76fe37a4361988a2a6daaf802719f"
+      "bytes": 9998,
+      "sha256": "2ba35d05db2dff9f1ec4ecc6379ccaeff7a958a81dc9545e8e1bd1a672b2eea4"
     },
     {
       "path": "models/UNet.py",
@@ -1467,8 +1494,8 @@
     },
     {
       "path": "models/modern_baselines.py",
-      "bytes": 8787,
-      "sha256": "53dd29b9bb51fdd879a0cab6ce920bf07135bd73e7b74e2f19330e971d059710"
+      "bytes": 8819,
+      "sha256": "cfe659521f6004f128648ab7cf271372775484be703f495405d777a02cc28b4d"
     },
     {
       "path": "preflight_carer_3datasets.py",
@@ -1546,6 +1573,11 @@
       "sha256": "82b5fc407de8cdd2c2d01f115ed8eed2995abae95f1416d280c65ec4ecd83080"
     },
     {
+      "path": "results/chinese_paper/input_controls_provenance.json",
+      "bytes": 1214,
+      "sha256": "bb6bd8bb1d520859a78b76ffc12683f7d8667316a4ac7b4806f523e90efdb724"
+    },
+    {
       "path": "results/chinese_paper/provenance.json",
       "bytes": 1374,
       "sha256": "4f6f84c30970c365fec9d4057cf1e024ef0ac71092e3b782c187e6b60fe9909b"
@@ -1584,6 +1616,11 @@
       "path": "results/chinese_paper/table_07.csv",
       "bytes": 223,
       "sha256": "45fb56a9ce6f1116bf62997e3199990ce5635d16425e5d6f9ecfa6e8799fa758"
+    },
+    {
+      "path": "results/chinese_paper/table_08.csv",
+      "bytes": 561,
+      "sha256": "edc78edc2aed00ac2421bedc37152f8dbade419ed78d3fb50c04d215ecfb8580"
     },
     {
       "path": "results/efficiency/JIIM_efficiency_benchmark.csv",
@@ -1826,6 +1863,11 @@
       "sha256": "4337a733f3af9322127edac91cde641640f56bc921a75b604d1efad368e70e7a"
     },
     {
+      "path": "scripts/reproduce_input_controls.py",
+      "bytes": 5452,
+      "sha256": "70c076b837ca95440dc5382a2ee6907bc4d5186dba9bd5322a8e04cd7f763f13"
+    },
+    {
       "path": "scripts/reproduce_tables.py",
       "bytes": 8304,
       "sha256": "64d139156e28b503914024972e3ad091dc3e5ab2999a87bbc7f8b7b72a66f417"
@@ -1839,6 +1881,11 @@
       "path": "scripts/smoke_models.py",
       "bytes": 2630,
       "sha256": "1b6e5bf98fdd3fe5e5388cb11fd256f3b021106f4d4d059ca77f95f4050a307e"
+    },
+    {
+      "path": "scripts/verify_prepared_inputs.py",
+      "bytes": 2261,
+      "sha256": "74ab3ba1a098a1c858bb3ad41ecbea9fabfeff79c70b9a94f7d1423643e5ffcd"
     },
     {
       "path": "scripts/verify_release.py",
@@ -1927,8 +1974,8 @@
     },
     {
       "path": "tests/test_release_tools.py",
-      "bytes": 3358,
-      "sha256": "0e2721e6b82c06c504f3f2ca25e67fb3c3a1e6f9829b223c3f0adff6186fb968"
+      "bytes": 4674,
+      "sha256": "673ef10929df6fe9b3504fc96ce26571e40e120ce04de651d4feb0600b6bf5f5"
     },
     {
       "path": "train.py",

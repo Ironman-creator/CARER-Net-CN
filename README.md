@@ -13,7 +13,7 @@
                              血管分割结果
 ```
 
-本仓库是独立的中文代码与数值记录发布版。英文论文仓库 [`Ironman-creator/CARER-Net`](https://github.com/Ironman-creator/CARER-Net) 独立维护，其文件、分支和提交未因本次发布而修改。
+当前中文发布版为 **v1.0.1**，修订说明见[版本说明](docs/版本说明_1.0.1.md)。英文论文代码位于独立仓库 [`Ironman-creator/CARER-Net`](https://github.com/Ironman-creator/CARER-Net)。
 
 ## 快速开始：无需训练核对论文表格
 
@@ -24,12 +24,14 @@ python -m pip install -r requirements-statistics.txt
 python scripts/verify_release.py
 python scripts/reproduce_tables.py
 python component_ablation/analyze_published.py
+python scripts/reproduce_input_controls.py --output-dir artifacts/input_controls_check
 ```
 
 这些命令只读取随仓库发布的数值文件，结果写入 `artifacts/`，不需要 GPU、数据集或模型权重。
 
 - `reproduce_tables.py` 从逐种子、逐图结果核对主实验均值、标准差及配对差值，整理中文表2–6；历史置信区间取自原统计输出。
 - `analyze_published.py` 从9组×200张图像的结果**重新计算**组件消融的均值、种子间标准差，以及4项比较的95%和98.75%区间，并逐项核对发布值。
+- `reproduce_input_controls.py` 核对表8七种输入/颜色方案的逐种子均值、标准差及Core配对差值，历史区间按原始统计文件核对。中文论文八张表的来源见[实验结果索引](docs/实验结果索引.md)。
 
 ## 重新训练与测试
 
@@ -92,11 +94,11 @@ docs/                     数据、训练、表格来源说明
 
 仓库不分发眼底照片、人工标注或训练权重。数据由各原始提供方发布，许可不由本仓库的MIT许可证替代。传统三个数据集使用历史gamma预处理灰度副本，FIVES使用原生RGB；替换成其他输入会改变实验条件。详见[数据准备](docs/数据准备.md)。
 
-主代码来自完成四数据集实验的冻结训练实现；组件实验保留完成本机实验的独立快照。原始统计文件按字节保留，表格映射和统计口径见[实验结果索引](docs/实验结果索引.md)。所有发布文件的SHA-256列于 `RELEASE_MANIFEST.json`。
+主代码来自完成四数据集实验的训练实现；v1.0.1仅修订说明文档、代码注释和说明文本，模型运算与训练日程不变。原始统计文件、固定划分和协议按字节保留，表格映射和统计口径见[实验结果索引](docs/实验结果索引.md)，冻结结构分析源的阅读说明见[结构分析说明](docs/结构分析阅读说明.md)。所有发布文件的SHA-256列于 `RELEASE_MANIFEST.json`。
 
 ## 引用与联系
 
-仓库引用信息见 [`CITATION.cff`](CITATION.cff)。本仓库为中文研究代码发布，不表示论文已经正式发表。
+仓库引用信息见 [`CITATION.cff`](CITATION.cff)。配套论文当前为研究稿。
 
 Zijian Chen，Guangzhou Huanan Business College。  
 联系邮箱：mrchan717829@foxmail.com  

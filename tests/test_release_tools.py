@@ -1,5 +1,6 @@
 """无需GPU、数据和权重的公开发布自检。"""
 import importlib.util
+import csv
 import json
 from pathlib import Path
 import unittest
@@ -15,6 +16,29 @@ def module(path, name):
 
 
 class ReleaseTests(unittest.TestCase):
+    def test_input_control_table_and_pairing(self):
+        controls = module("scripts/reproduce_input_controls.py", "input_control_tools")
+        report = controls.verify()
+        self.assertTrue(report["passed"])
+        self.assertEqual(report["arms_checked"], 7)
+        self.assertEqual(len(report["table"]), 8)
+        projection = next(row for row in report["summary"] if row["arm"] == "projection")
+        self.assertEqual(projection["added_parameters"], 4)
+        self.assertLess(projection["ci95_low"], 0)
+        self.assertGreater(projection["ci95_high"], 0)
+
+    def test_prepared_input_manifest_is_portable(self):
+        with (ROOT / "docs/传统三库输入文件校验.csv").open(encoding="utf-8-sig", newline="") as handle:
+            rows = list(csv.DictReader(handle))
+        self.assertEqual(len(rows), 176)
+        self.assertEqual(len({row["relative_path"] for row in rows}), 176)
+        self.assertEqual(sum(row["role"] == "input_image" for row in rows), 88)
+        self.assertEqual(sum(row["role"] == "ground_truth_mask" for row in rows), 88)
+        for row in rows:
+            self.assertFalse(Path(row["relative_path"]).is_absolute())
+            self.assertNotIn("..", Path(row["relative_path"]).parts)
+            self.assertRegex(row["sha256"], r"^[0-9a-f]{64}$")
+
     def test_plan_is_read_only_and_has_correct_schedule(self):
         planner = module("scripts/run_main_experiments.py", "main_planner")
         args = planner.parse_args(["--datasets", "FIVES", "STARE", "--seeds", "42", "--all-baselines"])

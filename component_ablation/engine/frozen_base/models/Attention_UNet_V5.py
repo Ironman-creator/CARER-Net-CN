@@ -206,7 +206,7 @@ class SignedErrorRefiner(nn.Module):
 
 
 class CARERUNet(ImprovedAttentionUNetV2):
-    """Color-aware, baseline-preserving signed error refinement of the GN model."""
+    """Color adaptation and dual-branch error refinement of the GN model."""
 
     def __init__(self, out_channels=1, detail_channels=24):
         # Construct the complete GN inference path first so all inherited state
@@ -299,7 +299,7 @@ class ContrastOnlyColorDetailUNet(ColorDetailOnlyUNet):
 
 
 class SignedRefinerOnlyUNet(ImprovedAttentionUNetV2):
-    """Ablation arm containing the signed FN/FP refiner but no color stem."""
+    """Ablation arm with FN/FP-supervised dual-branch refinement and no color stem."""
 
     def __init__(self, out_channels=1):
         super().__init__(in_channels=1, out_channels=out_channels, use_msff=False)

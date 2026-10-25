@@ -3,8 +3,8 @@
 All models use GroupNorm because the frozen protocol uses batch size one.  The
 architectural identities (nested U-Net++, recurrent residual R2U-Net and
 spatial-attention U-Net) are preserved while avoiding external packages and
-pretrained weights.  The paper must describe these as protocol-matched
-reimplementations, not as copied official checkpoints.
+pretrained weights.  These are protocol-matched reimplementations trained under the recorded
+settings, with GroupNorm and no external pretrained checkpoints.
 """
 
 from __future__ import annotations

@@ -1,0 +1,30 @@
+{
+  "table": "表8",
+  "manuscript": "CARER眼底血管分割论文_挑战杯终审修订稿_20261025.docx",
+  "manuscript_sha256": "838ad6d959c172a1e2494b7b017a157802177f132744c73077f988e010370bed",
+  "table_file": "table_08.csv",
+  "table_sha256": "edc78edc2aed00ac2421bedc37152f8dbade419ed78d3fb50c04d215ecfb8580",
+  "source": "Existing seven-arm FIVES color-input control records; no new model training or test inference.",
+  "reproduction_entry": "scripts/reproduce_input_controls.py",
+  "arms": 7,
+  "seeds": [
+    42,
+    123,
+    3407
+  ],
+  "per_image_rows": 4200,
+  "raw_sources": [
+    {
+      "path": "component_ablation/engine/historical/历史七方案汇总.csv",
+      "sha256": "9132f4b010e163debb205f7da5bfbabfdaed10c33e137cbc6ab100f9ad4079d3"
+    },
+    {
+      "path": "component_ablation/engine/historical/raw_color_controls/FIVES_color_controls_test_summary.csv",
+      "sha256": "31b4a0f3ebf4e82cd7d4c0346ff4181ae505f9ee5342f41ce5db4db2a75193b9"
+    },
+    {
+      "path": "component_ablation/engine/historical/raw_color_controls/FIVES_color_controls_pairwise.csv",
+      "sha256": "92bf49e27070aced0b628226603ecb531d5c1277407cceccfe9b6fa452cc0078"
+    }
+  ]
+}

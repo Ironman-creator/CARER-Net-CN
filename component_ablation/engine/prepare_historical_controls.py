@@ -221,16 +221,16 @@ def main(argv=None):
     else:
         manifest["optional_missing"].append({"artifact": str(structural_csv)})
     lines = ["# 历史局部对比与颜色对照结果", "",
-             "本资料完整保留已完成的七方案、三种子结果；没有新增训练、测试、阈值选择或筛选方案。FIVES此前已用于方法开发和结果查看，本资料不是独立重复验证。", "",
+             "本资料汇总已完成的七方案、三种子结果，沿用原训练、测试和阈值设置。FIVES此前已用于方法开发和结果查看，本次属于既有数据上的补充分析。", "",
              "## 全部七方案", "", "|方案|新增参数|Dice均值|种子间SD|Core−该方案Dice|95%图像区间|", "|---|---:|---:|---:|---:|---|"]
     for row in summary:
         interval = "不适用" if row["arm"] == "core" else f"[{row['core_minus_arm_ci95_low_dice']:+.6f}, {row['core_minus_arm_ci95_high_dice']:+.6f}]"
         difference = "—" if row["arm"] == "core" else f"{row['core_minus_arm_dice']:+.6f}"
         lines.append(f"|{row['label_zh']}|{row['added_parameters']}|{row['mean_dice']:.6f}|{row['seed_sd_dice']:.6f}|{difference}|{interval}|")
     lines += ["", "这些区域指标区间先对每幅图的三个种子取平均，再进行配对图像重采样；它们不是种子×图像双向区间，也未做多重比较校正。完整Dice、IoU、敏感度、特异度及每项来源路径与SHA256见历史七方案汇总.csv。", "",
-              "## 可以解释什么", "",
-              "Core相对RGB-only残差的差值与区间已从原表反向为Core−RGB-only，保证区间上下界同时交换符号。1×1投影与Core的区域Dice差值区间跨零，不能写成Core已显著优于简单RGB投影，也不能将跨零当作等效性证明。",
-              "RGB-only有985个新增参数，Core有1201个，两者同时改变了线索与容量，所以不是严格等容量的单因素线索消融。已有对照也未单独隔离证明tanh幅度限制、灰度旁路或零初始化各自不可替代。", "",
+              "## 对照差异与统计结果", "",
+              "Core相对RGB-only的差值统一以Core−RGB-only表示，置信区间随差值方向同步变换。Core与1×1 RGB投影的区域Dice差值区间跨零；本次比较未检出明确差异，也未进行等效性检验。",
+              "RGB-only有985个新增参数，Core有1201个，两者同时改变了线索与容量。颜色对照与幅度限制、初始化的组件实验分别报告；后者对应中文论文表7。", "",
               "## 后验结构补充", ""]
     if structural_rows:
         lines += ["以下来自冻结预测的后验结构分析；95%与98.75%均为种子×图像双向配对重采样，不使用同文件的image_only列替代。98.75%对应四个结构终点的Bonferroni校正。", "",

@@ -1,0 +1,111 @@
+{
+  "release": "1.0.0",
+  "git_commit": "907cd98c68119b2ad44fecba508d3d6fb892f988",
+  "release_date": "2026-10-24",
+  "root_release_manifest_sha256": "77c6b801bef43beef9c2f6831be522c35ed6788b3fecdafbccebdc2357b23352",
+  "reproduction_checks_sha256": "01e17fc4f6a99bb8f3f385f3c3487041e8309f929612af61bc2707633faefc07",
+  "note": "Original source bytes are identified by this Git commit and path; v1.0.1 retains numerical files and the fixed statistics sources.",
+  "revised_source_files": [
+    {
+      "path": "CITATION.cff",
+      "original_sha256": "bd9a9a07b89ae8c7a3ba5990c5c32f65ae761d15f9251c0ec8d039f49216b3ff"
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "788eb1cf13e81cc87f788725c4f0d80f038fefb6633ab1f50da4c80b86f08636"
+    },
+    {
+      "path": "component_ablation/README.md",
+      "original_sha256": "818aad1b99a92d6165472f0fb6ae5349901c7901e940d1f6f31694c203740141"
+    },
+    {
+      "path": "component_ablation/engine/README_4070.md",
+      "original_sha256": "910b3516e12b7be98b4b5ef34335be0d7a13a5bdbc6098c06373a7e7c936383e"
+    },
+    {
+      "path": "component_ablation/engine/frozen_base/models/Attention_UNet_V5.py",
+      "original_sha256": "87daac22daf4ea9b586333fabfe962754e135be8578e10252d8cf6859ff898c6"
+    },
+    {
+      "path": "component_ablation/engine/frozen_base/models/modern_baselines.py",
+      "original_sha256": "53dd29b9bb51fdd879a0cab6ce920bf07135bd73e7b74e2f19330e971d059710"
+    },
+    {
+      "path": "component_ablation/engine/historical/历史局部对比结果.md",
+      "original_sha256": "9fd8142f95ae5a434eb0c6cbeee179946bcdef6b9c0988694d1109f869ae4ed0"
+    },
+    {
+      "path": "component_ablation/engine/prepare_historical_controls.py",
+      "original_sha256": "b48f7f924a22f68c53d6b03e26be378c731374316c716cc7d1ea4a27ed46b573"
+    },
+    {
+      "path": "component_ablation/engine_4070/README_4070.md",
+      "original_sha256": "910b3516e12b7be98b4b5ef34335be0d7a13a5bdbc6098c06373a7e7c936383e"
+    },
+    {
+      "path": "component_ablation/engine_4070/frozen_base/models/Attention_UNet_V5.py",
+      "original_sha256": "87daac22daf4ea9b586333fabfe962754e135be8578e10252d8cf6859ff898c6"
+    },
+    {
+      "path": "component_ablation/engine_4070/frozen_base/models/modern_baselines.py",
+      "original_sha256": "53dd29b9bb51fdd879a0cab6ce920bf07135bd73e7b74e2f19330e971d059710"
+    },
+    {
+      "path": "component_ablation/engine_4070/historical/历史局部对比结果.md",
+      "original_sha256": "9fd8142f95ae5a434eb0c6cbeee179946bcdef6b9c0988694d1109f869ae4ed0"
+    },
+    {
+      "path": "component_ablation/engine_4070/prepare_historical_controls.py",
+      "original_sha256": "b48f7f924a22f68c53d6b03e26be378c731374316c716cc7d1ea4a27ed46b573"
+    },
+    {
+      "path": "docs/实验结果索引.md",
+      "original_sha256": "b818f21305c0a1c06f1fe23277bfd68dbf43c9767aa1b52a0e07c3b944909fd6"
+    },
+    {
+      "path": "docs/数据准备.md",
+      "original_sha256": "3fa6c224df7f4669dd8566a3911d71a5ca6a6a7b7625dc021c48a29cab515664"
+    },
+    {
+      "path": "docs/训练复现.md",
+      "original_sha256": "61ca500637343347bb09ea1bd23bfa3c2f7ceae4132b72add8347c849bd6190d"
+    },
+    {
+      "path": "models/Attention_UNet_V5.py",
+      "original_sha256": "98976546b56bbd3e5a028440fa93013e9ed76fe37a4361988a2a6daaf802719f"
+    },
+    {
+      "path": "models/modern_baselines.py",
+      "original_sha256": "53dd29b9bb51fdd879a0cab6ce920bf07135bd73e7b74e2f19330e971d059710"
+    }
+  ],
+  "unchanged_statistics_sources": [
+    {
+      "path": "analysis/structure_metrics.py",
+      "sha256": "288430451a7317a7f9bbc40f790a4bee36adb7ed095e346ff0c87c11d61c979b",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "component_ablation/engine/frozen_base/structure_metrics.py",
+      "sha256": "288430451a7317a7f9bbc40f790a4bee36adb7ed095e346ff0c87c11d61c979b",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "component_ablation/engine_4070/frozen_base/structure_metrics.py",
+      "sha256": "288430451a7317a7f9bbc40f790a4bee36adb7ed095e346ff0c87c11d61c979b",
+      "bytes_unchanged": true
+    }
+  ],
+  "component_original_manifests": [
+    {
+      "path": "component_ablation/engine/package_manifest.json",
+      "sha256": "5dadf43b6733d16823938865db9386758b5a633fe53978f8d69f48278dccc125",
+      "historical_manifest_sha256": "fb3444568cea6d626db93a69a2e28f3a4f433a701e951268fa359dd318c2dbaf"
+    },
+    {
+      "path": "component_ablation/engine_4070/package_manifest.json",
+      "sha256": "f02858fe5761dd12eb64b35ca29551e929c66ecc1b0e14e78598b2605bb1019e",
+      "historical_manifest_sha256": "fb3444568cea6d626db93a69a2e28f3a4f433a701e951268fa359dd318c2dbaf"
+    }
+  ]
+}

@@ -428,11 +428,19 @@
     },
     {
       "path": "历史局部对比结果.md",
-      "sha256": "9fd8142f95ae5a434eb0c6cbeee179946bcdef6b9c0988694d1109f869ae4ed0"
+      "sha256": "b6d6c52831182103270978ec7479a3ade878d91b5f24b4f58a5320bcbd8dfc1b",
+      "original_sha256": "9fd8142f95ae5a434eb0c6cbeee179946bcdef6b9c0988694d1109f869ae4ed0"
     },
     {
       "path": "历史Core对投影结构统计.csv",
       "sha256": "3033963abdb420a5efb1fbcf020aecbaa363d57edc15a28bf8aef6cec1194ab1"
     }
-  ]
+  ],
+  "documentation_revision": {
+    "release": "1.0.1",
+    "date": "2026-10-25",
+    "original_manifest_sha256": "fb3444568cea6d626db93a69a2e28f3a4f433a701e951268fa359dd318c2dbaf",
+    "original_source_git_commit": "907cd98c68119b2ad44fecba508d3d6fb892f988",
+    "numerical_records_unchanged": true
+  }
 }
