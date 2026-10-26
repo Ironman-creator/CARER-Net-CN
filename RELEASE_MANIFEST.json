@@ -1,11 +1,11 @@
 {
-  "version": "1.0.1",
-  "date": "2026-10-25",
-  "repository": "https://github.com/Ironman-creator/CARER-Net-CN",
+  "version": "1.0.2",
+  "date": "2026-10-26",
+  "repository": "https://gitee.com/chen-zijian0829/carer-net-cn",
   "english_repository_reference_head": "fca5821619cd0bab673d9bd61775372b768bf7d9",
-  "note": "Current Chinese release files; original numerical records and fixed statistics sources retained. Documentation and independent reproduction utilities revised.",
-  "previous_release_git_commit": "907cd98c68119b2ad44fecba508d3d6fb892f988",
-  "previous_release_manifest_sha256": "77c6b801bef43beef9c2f6831be522c35ed6788b3fecdafbccebdc2357b23352",
+  "note": "Chinese repository entry points, citation metadata and release documentation updated; all original model, training, numerical and protocol files retain their bytes.",
+  "previous_release_git_commit": "e0eb193222ec5ddbeb638265ac4fe6a92954b838",
+  "previous_release_manifest_sha256": "3d13ee77a41b4ecb469456935266df32781bee9e9a1e410161f8900b5769f7f6",
   "files": [
     {
       "path": ".gitattributes",
@@ -19,8 +19,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 824,
-      "sha256": "4ef820be3d0ac15b1d097453528cce3155f34bba39dda99340dfc40beedbf337"
+      "bytes": 822,
+      "sha256": "2f1ffc050fafe0c118d36ec444d68adc2f107a912dd864b298f704ae3b7edb76"
     },
     {
       "path": "LICENSE",
@@ -29,8 +29,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6294,
-      "sha256": "42132910a9484186e43de5e6c6d77bc91dd44bf83b765d836b092ec85d5c41de"
+      "bytes": 6963,
+      "sha256": "dc53e3915a5b87423d035b3449ad70eb3863625c8093c5c6a1454e1d625ceb34"
     },
     {
       "path": "REPRODUCTION_CHECKS.json",
@@ -1433,6 +1433,11 @@
       "sha256": "1b3f12bfa1be73d7b41c89ee1b58251f38d27a1ba454c182c96adb3594253258"
     },
     {
+      "path": "docs/版本说明_1.0.2.md",
+      "bytes": 1330,
+      "sha256": "865d922b4b360d7b02304f3ba8503354c14a893481e7c585f44659e85141fec4"
+    },
+    {
       "path": "docs/结构分析阅读说明.md",
       "bytes": 2595,
       "sha256": "a757a745ade3b75d33e10f9135d3404c43dc5886a020c1bd12321b9ef52ced64"
@@ -2002,5 +2007,6 @@
       "bytes": 5399,
       "sha256": "b8ce5fac5aaf638498acaa6c45b4f6b96b72ac5889a205ef54e8ce1997c26aae"
     }
-  ]
+  ],
+  "github_mirror": "https://github.com/Ironman-creator/CARER-Net-CN"
 }

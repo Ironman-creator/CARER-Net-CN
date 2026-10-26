@@ -13,7 +13,28 @@
                              血管分割结果
 ```
 
-当前中文发布版为 **v1.0.1**，修订说明见[版本说明](docs/版本说明_1.0.1.md)。英文论文代码位于独立仓库 [`Ironman-creator/CARER-Net`](https://github.com/Ironman-creator/CARER-Net)。
+当前中文发布版为 **v1.0.2**，修订说明见[版本说明](docs/版本说明_1.0.2.md)。英文论文代码位于独立仓库 [`Ironman-creator/CARER-Net`](https://github.com/Ironman-creator/CARER-Net)。
+
+## 获取代码
+
+- **Gitee 中文主仓库**：https://gitee.com/chen-zijian0829/carer-net-cn
+- **GitHub 中文镜像**：https://github.com/Ironman-creator/CARER-Net-CN
+
+从主仓库下载：
+
+```bash
+git clone https://gitee.com/chen-zijian0829/carer-net-cn.git
+cd carer-net-cn
+```
+
+也可以从 GitHub 镜像下载：
+
+```bash
+git clone https://github.com/Ironman-creator/CARER-Net-CN.git
+cd CARER-Net-CN
+```
+
+中文代码以 Gitee 为维护入口，由维护者将更新单向同步到 GitHub 中文镜像，发布时核对两个仓库的版本和文件清单。英文仓库独立维护。
 
 ## 快速开始：无需训练核对论文表格
 
@@ -94,7 +115,7 @@ docs/                     数据、训练、表格来源说明
 
 仓库不分发眼底照片、人工标注或训练权重。数据由各原始提供方发布，许可不由本仓库的MIT许可证替代。传统三个数据集使用历史gamma预处理灰度副本，FIVES使用原生RGB；替换成其他输入会改变实验条件。详见[数据准备](docs/数据准备.md)。
 
-主代码来自完成四数据集实验的训练实现；v1.0.1仅修订说明文档、代码注释和说明文本，模型运算与训练日程不变。原始统计文件、固定划分和协议按字节保留，表格映射和统计口径见[实验结果索引](docs/实验结果索引.md)，冻结结构分析源的阅读说明见[结构分析说明](docs/结构分析阅读说明.md)。所有发布文件的SHA-256列于 `RELEASE_MANIFEST.json`。
+主代码来自完成四数据集实验的训练实现。v1.0.1修订说明文档、代码注释和说明文本，并增加独立复核工具；v1.0.2更新中文仓库入口和引用信息，模型运算与训练日程不变。原始统计文件、固定划分和协议按字节保留，表格映射和统计口径见[实验结果索引](docs/实验结果索引.md)，冻结结构分析源的阅读说明见[结构分析说明](docs/结构分析阅读说明.md)。所有发布文件的SHA-256列于 `RELEASE_MANIFEST.json`。
 
 ## 引用与联系
 
